@@ -45,14 +45,12 @@ export default function VideoPost({ post }) {
     return (
         <article className="brick entry format-video">
             <div className="entry-thumb video-image">
-                <button
-                    className="thumb-link"
-                    style={{ border: 'none', background: 'none', padding: 0, cursor: 'pointer' }}
+                <a
                     onClick={() => setOpen(true)}
                     aria-label={`Open video: ${post.name}`}
                 >
                     <img src={post.thumbnail} alt={post.name}/>
-                </button>
+                </a>
                 <ModalVideo
                     channel="youtube"
                     isOpen={isOpen}

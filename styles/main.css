@@ -1530,6 +1530,7 @@ input::-moz-focus-inner {
 
 .format-video .entry-thumb a img {
 	vertical-align: bottom;
+	width: 100%;;
 }
 
 .format-video .entry-thumb a::before {
