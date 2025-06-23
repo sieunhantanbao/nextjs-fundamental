@@ -1,0 +1,8 @@
+[
+    { "id": "1", "name": "WordPress", "slug": "wordpress" },
+    { "id": "2", "name": "HTML", "slug": "html" },
+    { "id": "3", "name": "Photography", "slug": "photography" },
+    { "id": "4", "name": "UI", "slug": "ui" },
+    { "id": "5", "name": "Mockup", "slug": "mockup" },
+    { "id": "6", "name": "Branding", "slug": "branding" }
+]
