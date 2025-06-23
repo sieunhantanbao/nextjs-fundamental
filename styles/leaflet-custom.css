@@ -1,0 +1,97 @@
+/* Custom Leaflet CSS with essential styles */
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  background: #f8f8f8;
+  position: relative;
+}
+
+.leaflet-control-container .leaflet-top,
+.leaflet-control-container .leaflet-bottom {
+  position: absolute;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.leaflet-control-container .leaflet-top {
+  top: 0;
+}
+
+.leaflet-control-container .leaflet-right {
+  right: 0;
+}
+
+.leaflet-control-container .leaflet-bottom {
+  bottom: 0;
+}
+
+.leaflet-control-container .leaflet-left {
+  left: 0;
+}
+
+.leaflet-control {
+  float: left;
+  clear: both;
+  pointer-events: auto;
+}
+
+.leaflet-bar {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+}
+
+.leaflet-bar a {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.leaflet-bar a:hover {
+  background-color: #f4f4f4;
+}
+
+.leaflet-touch .leaflet-bar a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+  font: bold 18px 'Lucida Console', Monaco, monospace;
+  text-indent: 1px;
+}
+
+.leaflet-touch .leaflet-control-zoom-in,
+.leaflet-touch .leaflet-control-zoom-out {
+  font-size: 22px;
+}
+
+.leaflet-control-layers {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+}
+
+.leaflet-marker-icon {
+  display: block;
+  border: none;
+}
+
+.leaflet-interactive {
+  cursor: pointer;
+}
+
+/* Tile layer styles */
+.leaflet-tile-container img {
+  width: 256px;
+  height: 256px;
+}
