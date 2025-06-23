@@ -34,7 +34,6 @@ export default function Header() {
 
 	return (
 		<>
-			{/* <Script src="/js/superfish.js" strategy="afterInteractive" /> */}
 			<header className="short-header">
 				<div className="gradient-block"></div>
 				<div className="row header-content">
@@ -46,8 +45,8 @@ export default function Header() {
 							<li className={router.pathname === '/' ? 'current' : ''}>
 								<Link href="/">Home</Link>
 							</li>
-							<li className={router.pathname.startsWith('/category') ? 'has-children current' : 'has-children'}>
-								<Link href="/categories/1">Categories</Link>
+							<li className={router.pathname.startsWith('/categories') ? 'has-children current' : 'has-children'}>
+								<Link href="/categories/ui">Categories</Link>
 								<ul className="sub-menu">
 									{categories.map(category => (
 										<li key={category.id}><Link href={`/categories/${category.slug}`}>{category.name}</Link></li>
