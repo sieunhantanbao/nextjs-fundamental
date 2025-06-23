@@ -906,17 +906,16 @@
       "https://picsum.photos/id/969/800/600"
     ]
   },
-  {
-    "id": "89",
+  {    "id": "89",
     "type": "video",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "October 22, 2024",
-    "name": "Branding Basics for Startups",
-    "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
-    "thumbnail": "https://picsum.photos/id/1268/300/200",
-    "image": "https://picsum.photos/id/868/1300/650",
+    "name": "Essential Branding Strategy for New Ventures",
+    "description": "Learn foundational branding techniques to establish your startup's unique market presence.",
+    "thumbnail": "https://picsum.photos/seed/branding89/300/200",
+    "image": "https://picsum.photos/seed/branding89large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
   {
@@ -933,18 +932,17 @@
       "https://picsum.photos/id/970/800/600",
       "https://picsum.photos/id/971/800/600"
     ]
-  },
-  {
+  },  {
     "id": "91",
     "type": "standard",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "October 28, 2024",
-    "name": "HTML5 Tips for Beginners",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1270/300/200",
-    "image": "https://picsum.photos/id/870/1300/650"
+    "name": "HTML5 Advanced Techniques for Web Developers",
+    "description": "Discover practical HTML5 features that enhance user experiences and streamline development workflows.",
+    "thumbnail": "https://picsum.photos/seed/html91/300/200",
+    "image": "https://picsum.photos/seed/html91large/1300/650"
   },
   {
     "id": "92",
@@ -985,69 +983,64 @@
     "image": "https://picsum.photos/id/873/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
   },
-  {
-    "id": "95",
+  {    "id": "95",
     "type": "video",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "November 09, 2024",
-    "name": "Mockups That Sell",
-    "description": "Explore best practices in showcasing your work with realistic design mockups.",
-    "thumbnail": "https://picsum.photos/id/1274/300/200",
-    "image": "https://picsum.photos/id/874/1300/650",
+    "name": "Creating Professional Design Mockups",
+    "description": "Master the art of crafting convincing mockups that showcase your designs in real-world contexts.",
+    "thumbnail": "https://picsum.photos/seed/mockup95/300/200",
+    "image": "https://picsum.photos/seed/mockup95large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
   {
-    "id": "96",
-    "type": "video",
+    "id": "96",    "type": "video",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "November 12, 2024",
-    "name": "Optimizing WordPress for Performance",
-    "description": "Discover the latest tools and techniques in WordPress development and optimization.",
-    "thumbnail": "https://picsum.photos/id/1275/300/200",
-    "image": "https://picsum.photos/id/875/1300/650",
+    "name": "WordPress Speed Optimization Strategies",
+    "description": "Learn proven techniques to dramatically boost your WordPress site's loading speed and performance.",
+    "thumbnail": "https://picsum.photos/seed/wordpress96/300/200",
+    "image": "https://picsum.photos/seed/wordpress96large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
   {
     "id": "97",
-    "type": "video",
-    "categoryId": "6",
+    "type": "video",    "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "November 15, 2024",
-    "name": "Branding Basics for Startups",
-    "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
-    "thumbnail": "https://picsum.photos/id/1276/300/200",
-    "image": "https://picsum.photos/id/876/1300/650",
+    "name": "Startup Branding: From Logo to Market Position",
+    "description": "A comprehensive guide to developing a cohesive brand strategy that resonates with your target audience.",
+    "thumbnail": "https://picsum.photos/seed/branding97/300/200",
+    "image": "https://picsum.photos/seed/branding97large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
   },
   {
     "id": "98",
     "type": "video",
-    "categoryId": "2",
-    "categoryName": "HTML",
+    "categoryId": "2",    "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "November 18, 2024",
-    "name": "Modern HTML Elements",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1277/300/200",
-    "image": "https://picsum.photos/id/877/1300/650",
+    "name": "Modern HTML Elements for Interactive Websites",
+    "description": "Explore semantic HTML5 elements that improve accessibility and create more engaging user experiences.",
+    "thumbnail": "https://picsum.photos/seed/html98/300/200",
+    "image": "https://picsum.photos/seed/html98large/1300/650",
     "video": "https://www.youtube.com/embed/pcSv22DTDUI"
   },
   {
     "id": "99",
     "type": "standard",
     "categoryId": "6",
-    "categoryName": "Branding",
-    "categorySlug": "branding",
+    "categoryName": "Branding",    "categorySlug": "branding",
     "publishedDate": "November 21, 2024",
     "name": "Building a Consistent Brand Identity",
-    "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
-    "thumbnail": "https://picsum.photos/id/1278/300/200",
-    "image": "https://picsum.photos/id/878/1300/650"
+    "description": "Strategies for maintaining visual and messaging consistency across all brand touchpoints.",
+    "thumbnail": "https://picsum.photos/seed/branding99/300/200",
+    "image": "https://picsum.photos/seed/branding99large/1300/650"
   },
   {
     "id": "100",
