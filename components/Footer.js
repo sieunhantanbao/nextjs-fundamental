@@ -1,6 +1,10 @@
 import { useEffect } from 'react';
+import useBackToTop from '../hooks/useBackToTop';
 
 export default function Footer() {
+  // Use our custom back-to-top hook
+  useBackToTop();
+  
   useEffect(() => {
     // const loadAjaxChimp = async () => {
     //   if (typeof window !== 'undefined') {
@@ -106,11 +110,22 @@ export default function Footer() {
 	      		<div className="copyright">
 		         	<span>© Copyright Abstract 2016</span> 
 		         	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
+		         </div>		         <div id="go-top">
+		            <a 
+                   className="smoothscroll" 
+                   title="Back to Top" 
+                   href="#top"
+                   onClick={(e) => {
+                     e.preventDefault();
+                     window.scrollTo({
+                       top: 0,
+                       behavior: 'smooth'
+                     });
+                   }}
+                  >
+                    <i className="icon icon-arrow-up"></i>
+                  </a>
 		         </div>
-
-		         <div id="go-top">
-		            <a className="smoothscroll" title="Back to Top" href="#top"><i className="icon icon-arrow-up"></i></a>
-		         </div>         
 	      	</div>
 
       	</div> 
