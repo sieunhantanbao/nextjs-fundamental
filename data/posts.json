@@ -496,33 +496,31 @@
     "thumbnail": "https://picsum.photos/seed/html_semantic39/300/200",
     "image": "https://picsum.photos/seed/html_semantic39large/1300/650"
   },
-  {
-    "id": "40",
+  {    "id": "40",
     "type": "gallery",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "May 28, 2024",
-    "name": "Branding Basics for Startups",
-    "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
+    "name": "Branding Portfolio Examples for New Businesses",
+    "description": "A visual collection of effective brand identities that communicate clear values and positioning.",
     "gallery": [
-      "https://picsum.photos/id/919/800/600",
-      "https://picsum.photos/id/920/800/600",
-      "https://picsum.photos/id/921/800/600"
+      "https://picsum.photos/seed/branding40a/800/600",
+      "https://picsum.photos/seed/branding40b/800/600",
+      "https://picsum.photos/seed/branding40c/800/600"
     ]
   },
-  {
-    "id": "41",
+  {    "id": "41",
     "type": "audio",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "May 31, 2024",
-    "name": "Building a Consistent Brand Identity",
-    "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
-    "thumbnail": "https://picsum.photos/id/1220/300/200",
-    "image": "https://picsum.photos/id/820/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Brand Voice and Messaging Strategy",
+    "description": "Audio guide on developing consistent brand messaging that speaks to your audience with authenticity.",
+    "thumbnail": "https://picsum.photos/seed/branding41/300/200",
+    "image": "https://picsum.photos/seed/branding41large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
   },  {
     "id": "42",
     "type": "audio",
@@ -608,8 +606,7 @@
     "thumbnail": "https://picsum.photos/seed/ui_access48/300/200",
     "image": "https://picsum.photos/seed/ui_access48large/1300/650"
   },
-  {
-    "id": "49",
+  {    "id": "49",
     "type": "video",
     "categoryId": "3",
     "categoryName": "Photography",
@@ -617,8 +614,8 @@
     "publishedDate": "June 24, 2024",
     "name": "Capturing Light in Photography",
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
-    "thumbnail": "https://picsum.photos/id/1228/300/200",
-    "image": "https://picsum.photos/id/828/1300/650",
+    "thumbnail": "https://picsum.photos/seed/photo49/300/200",
+    "image": "https://picsum.photos/seed/photo49large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },  {
     "id": "50",
@@ -643,8 +640,7 @@
     "thumbnail": "https://picsum.photos/seed/mockup_present51/300/200",
     "image": "https://picsum.photos/seed/mockup_present51large/1300/650"
   },
-  {
-    "id": "52",
+  {    "id": "52",
     "type": "audio",
     "categoryId": "4",
     "categoryName": "UI",
@@ -652,9 +648,9 @@
     "publishedDate": "July 03, 2024",
     "name": "Designing for Accessibility in UI",
     "description": "Understand the principles behind clean, effective, and accessible user interfaces.",
-    "thumbnail": "https://picsum.photos/id/1231/300/200",
-    "image": "https://picsum.photos/id/831/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "thumbnail": "https://picsum.photos/seed/ui52/300/200",
+    "image": "https://picsum.photos/seed/ui52large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
   },  {
     "id": "53",
     "type": "standard",
@@ -694,31 +690,29 @@
     "image": "https://picsum.photos/seed/wp_perf_video55large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
-  {
-    "id": "56",
+  {    "id": "56",
     "type": "audio",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "July 15, 2024",
-    "name": "WordPress SEO Tips",
-    "description": "Discover the latest tools and techniques in WordPress development and optimization.",
-    "thumbnail": "https://picsum.photos/id/1235/300/200",
-    "image": "https://picsum.photos/id/835/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "WordPress SEO Podcast: Ranking Higher",
+    "description": "Audio guide on implementing advanced SEO techniques specifically for WordPress websites.",
+    "thumbnail": "https://picsum.photos/seed/wordpress56/300/200",
+    "image": "https://picsum.photos/seed/wordpress56large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
   },
-  {
-    "id": "57",
+  {    "id": "57",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "July 18, 2024",
-    "name": "HTML5 Tips for Beginners",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1236/300/200",
-    "image": "https://picsum.photos/id/836/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "HTML5 Audio Course for Web Developers",
+    "description": "A comprehensive audio tutorial on mastering semantic HTML5 elements for modern web development.",
+    "thumbnail": "https://picsum.photos/seed/html57/300/200",
+    "image": "https://picsum.photos/seed/html57large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
   },  {
     "id": "58",
     "type": "standard",
@@ -731,18 +725,17 @@
     "thumbnail": "https://picsum.photos/seed/photo_light58/300/200",
     "image": "https://picsum.photos/seed/photo_light58large/1300/650"
   },
-  {
-    "id": "59",
+  {    "id": "59",
     "type": "audio",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "July 24, 2024",
-    "name": "Mastering WordPress Themes",
-    "description": "Discover the latest tools and techniques in WordPress development and optimization.",
-    "thumbnail": "https://picsum.photos/id/1238/300/200",
-    "image": "https://picsum.photos/id/838/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Theme Development Masterclass",
+    "description": "Audio series on creating professional WordPress themes from scratch with best coding practices.",
+    "thumbnail": "https://picsum.photos/seed/wordpress59/300/200",
+    "image": "https://picsum.photos/seed/wordpress59large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
   },
   {
     "id": "60",
@@ -771,18 +764,17 @@
     "image": "https://picsum.photos/seed/ui_minimal_video61large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
   },
-  {
-    "id": "62",
+  {    "id": "62",
     "type": "audio",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "August 02, 2024",
-    "name": "Mockups That Sell",
-    "description": "Explore best practices in showcasing your work with realistic design mockups.",
-    "thumbnail": "https://picsum.photos/id/1241/300/200",
-    "image": "https://picsum.photos/id/841/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Audio Guide: Creating Photorealistic Mockups",
+    "description": "A detailed walkthrough of techniques for creating professional mockups that highlight design concepts.",
+    "thumbnail": "https://picsum.photos/seed/mockup62/300/200",
+    "image": "https://picsum.photos/seed/mockup62large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
   },  {
     "id": "63",
     "type": "standard",
@@ -806,18 +798,17 @@
     "thumbnail": "https://picsum.photos/seed/wp_themes64/300/200",
     "image": "https://picsum.photos/seed/wp_themes64large/1300/650"
   },
-  {
-    "id": "65",
+  {    "id": "65",
     "type": "audio",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "August 11, 2024",
-    "name": "Case Study: Iconic Brand Designs",
-    "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
-    "thumbnail": "https://picsum.photos/id/1244/300/200",
-    "image": "https://picsum.photos/id/844/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Audio Analysis: Famous Brand Transformations",
+    "description": "Listen to detailed breakdowns of how iconic brands evolved their visual identities over time.",
+    "thumbnail": "https://picsum.photos/seed/branding65/300/200",
+    "image": "https://picsum.photos/seed/branding65large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
   },  {
     "id": "66",
     "type": "standard",
@@ -870,31 +861,29 @@
       "https://picsum.photos/id/950/800/600"
     ]
   },
-  {
-    "id": "70",
+  {    "id": "70",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "August 26, 2024",
-    "name": "HTML5 Tips for Beginners",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1249/300/200",
-    "image": "https://picsum.photos/id/849/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Web Standards and HTML5: Audio Guide",
+    "description": "An exploration of HTML5 standards and how they've changed the landscape of web development.",
+    "thumbnail": "https://picsum.photos/seed/html70/300/200",
+    "image": "https://picsum.photos/seed/html70large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
   },
-  {
-    "id": "71",
+  {    "id": "71",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "August 29, 2024",
-    "name": "HTML5 Tips for Beginners",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1250/300/200",
-    "image": "https://picsum.photos/id/850/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Semantic HTML for Better SEO",
+    "description": "An audio discussion on how proper HTML structure can significantly improve your site's search engine visibility.",
+    "thumbnail": "https://picsum.photos/seed/html71/300/200",
+    "image": "https://picsum.photos/seed/html71large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
   },
   {
     "id": "72",
@@ -912,17 +901,16 @@
     ]
   },
   {
-    "id": "73",
-    "type": "audio",
+    "id": "73",    "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "September 04, 2024",
-    "name": "HTML5 Tips for Beginners",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1252/300/200",
-    "image": "https://picsum.photos/id/852/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Accessibility in HTML: Audio Guide",
+    "description": "Essential practices for writing semantic HTML that works for everyone, including screen readers and assistive technologies.",
+    "thumbnail": "https://picsum.photos/seed/html73/300/200",
+    "image": "https://picsum.photos/seed/html73large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3"
   },
   {
     "id": "74",
@@ -1038,17 +1026,16 @@
     ]
   },
   {
-    "id": "83",
-    "type": "audio",
+    "id": "83",    "type": "audio",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "October 04, 2024",
-    "name": "Free Mockup Resources for Designers",
-    "description": "Explore best practices in showcasing your work with realistic design mockups.",
-    "thumbnail": "https://picsum.photos/id/1262/300/200",
-    "image": "https://picsum.photos/id/862/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Designer's Guide to Free Mockup Resources",
+    "description": "A curated audio tour of the best free mockup resources and how to use them effectively in your design workflow.",
+    "thumbnail": "https://picsum.photos/seed/mockup83/300/200",
+    "image": "https://picsum.photos/seed/mockup83large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3"
   },  {
     "id": "84",
     "type": "standard",
@@ -1089,16 +1076,15 @@
   },
   {
     "id": "87",
-    "type": "audio",
-    "categoryId": "3",
+    "type": "audio",    "categoryId": "3",
     "categoryName": "Photography",
     "categorySlug": "photography",
     "publishedDate": "October 16, 2024",
-    "name": "Master the Art of Composition",
-    "description": "Dive into the world of visual storytelling and improve your photo skills.",
-    "thumbnail": "https://picsum.photos/id/1266/300/200",
-    "image": "https://picsum.photos/id/866/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Photography Composition: Audio Masterclass",
+    "description": "A detailed audio guide to the fundamental principles of composition that make photographs visually compelling.",
+    "thumbnail": "https://picsum.photos/seed/photo87/300/200",
+    "image": "https://picsum.photos/seed/photo87large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3"
   },
   {
     "id": "88",
@@ -1153,44 +1139,41 @@
     "thumbnail": "https://picsum.photos/seed/html91/300/200",
     "image": "https://picsum.photos/seed/html91large/1300/650"
   },
-  {
-    "id": "92",
+  {    "id": "92",
     "type": "audio",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "October 31, 2024",
-    "name": "Mockups That Sell",
-    "description": "Explore best practices in showcasing your work with realistic design mockups.",
-    "thumbnail": "https://picsum.photos/id/1271/300/200",
-    "image": "https://picsum.photos/id/871/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Product Presentation Mockups: Audio Guide",
+    "description": "How to create mockups that effectively showcase products and impress potential clients.",
+    "thumbnail": "https://picsum.photos/seed/mockup92/300/200",
+    "image": "https://picsum.photos/seed/mockup92large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3"
   },
-  {
-    "id": "93",
+  {    "id": "93",
     "type": "audio",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "November 03, 2024",
-    "name": "WordPress SEO Tips",
-    "description": "Discover the latest tools and techniques in WordPress development and optimization.",
-    "thumbnail": "https://picsum.photos/id/1272/300/200",
-    "image": "https://picsum.photos/id/872/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "SEO for WordPress: Audio Series",
+    "description": "A comprehensive audio guide on implementing technical and content SEO strategies for WordPress sites.",
+    "thumbnail": "https://picsum.photos/seed/wordpress93/300/200",
+    "image": "https://picsum.photos/seed/wordpress93large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3"
   },
-  {
-    "id": "94",
+  {    "id": "94",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "November 06, 2024",
-    "name": "HTML5 Tips for Beginners",
-    "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
-    "thumbnail": "https://picsum.photos/id/1273/300/200",
-    "image": "https://picsum.photos/id/873/1300/650",
-    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    "name": "Modern HTML APIs and Features: Audio Guide",
+    "description": "An exploration of the latest HTML features and browser APIs that are changing modern web development.",
+    "thumbnail": "https://picsum.photos/seed/html94/300/200",
+    "image": "https://picsum.photos/seed/html94large/1300/650",
+    "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3"
   },
   {    "id": "95",
     "type": "video",
