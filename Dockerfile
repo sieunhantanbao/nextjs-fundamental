@@ -1,15 +1,15 @@
 # Use Node.js LTS as the base image
 FROM node:20-alpine
 
-# Set working directory
+# Set working directory (using Next.js 13.5.6 and React 18.2.0 for compatibility)
 WORKDIR /app
 
 # Copy package.json and package-lock.json before other files
 # Utilize Docker cache to save re-installing dependencies if unchanged
 COPY package*.json ./
 
-# Install dependencies with legacy peer deps to handle React version compatibility issues
-RUN npm ci --legacy-peer-deps
+# Install dependencies
+RUN npm ci
 
 # Copy all files
 COPY . .

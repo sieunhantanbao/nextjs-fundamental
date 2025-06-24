@@ -1,14 +1,14 @@
 # Use Node.js LTS as the base image
 FROM node:20-alpine
 
-# Set working directory
+# Set working directory (using Next.js 13.5.6 and React 18.2.0 for compatibility)
 WORKDIR /app
 
 # Copy package.json and package-lock.json before other files
 COPY package*.json ./
 
-# Install dependencies with legacy peer deps to handle React version compatibility issues
-RUN npm install --legacy-peer-deps
+# Install dependencies
+RUN npm install
 
 # Expose the port the app runs on
 EXPOSE 3000

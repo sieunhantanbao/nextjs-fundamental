@@ -1,6 +1,6 @@
 # News CMS - Next.js Content Management System
 
-A modern, responsive news and content management system built with Next.js, featuring multiple post types including standard articles, videos, audio, galleries, and featured content.
+A modern, responsive news and content management system built with Next.js 13.5 and React 18, featuring multiple post types including standard articles, videos, audio, galleries, and featured content.
 
 ![News CMS Screenshot](public/images/news-cms-screenshot.jpg)
 
@@ -33,7 +33,7 @@ A modern, responsive news and content management system built with Next.js, feat
 
 ## Tech Stack
 
-- **Frontend Framework**: Next.js (React)
+- **Frontend Framework**: Next.js 13.5.6 (React 18)
 - **Styling**: CSS with custom styles
 - **Font Icons**: Font Awesome and Micons
 - **JavaScript Libraries**:
@@ -61,10 +61,9 @@ A modern, responsive news and content management system built with Next.js, feat
 
 2. Install dependencies:
    ```bash
-   # Use legacy-peer-deps to handle React version conflicts
-   npm install --legacy-peer-deps
+   npm install
    # or
-   yarn install --legacy-peer-deps
+   yarn install
    ```
 
 3. Run the development server:
@@ -165,30 +164,27 @@ The application uses JSON files in the `/data` directory to store:
 - `npm run lint` - Run linting
 
 ### Docker Commands
-- `docker build -t news-cms .` - Build production Docker image
-- `docker run -p 3000:3000 news-cms` - Run production Docker container
-- `docker-compose up` - Start development Docker environment
-- `docker-compose down` - Stop and remove development Docker containers
-- `docker-compose up --build` - Rebuild and start development Docker environment
+- `npm run docker:build` - Build production Docker image
+- `npm run docker:run` - Run production Docker container
+- `npm run docker:dev` - Start development Docker environment using Docker Compose
+- `docker compose down` - Stop and remove development Docker containers
+- `docker compose up --build` - Rebuild and start development Docker environment
 
-## Dependency Considerations
+## Dependency Information
 
-This project contains some dependency version conflicts, particularly:
+This project uses specific versions of React and Next.js to ensure compatibility with all dependencies:
 
-- **React Version Mismatch**: The `react-modal-video@2.0.2` package requires React 17/18, while the project uses React 19.x.
+- **Next.js**: Version 13.5.6
+- **React**: Version 18.2.0
+- **React DOM**: Version 18.2.0
+- **React Leaflet**: Version 4.2.1
 
-### How We Resolved It
+### Compatibility Notes
 
-- For development and production builds in Docker, we use the `--legacy-peer-deps` flag to handle these mismatches.
-- This is automatically configured in the Dockerfile and Dockerfile.dev files.
-
-### Alternative Solutions
-
-If you encounter issues with the current approach, consider:
-
-1. **Downgrading React**: Revert to React 18.x (requires updating Next.js as well)
-2. **Finding an Alternative Package**: Replace `react-modal-video` with a more updated alternative
-3. **Forking and Updating**: Create a fork of `react-modal-video` with updated React peer dependencies
+- The project was downgraded from React 19 to React 18.2.0 to maintain compatibility with `react-modal-video@2.0.2`.
+- With these versions, no `--legacy-peer-deps` flag is needed during installation.
+- Docker configuration has been updated to match these dependency requirements.
+- If you need to update dependencies in the future, please verify compatibility with all packages.
 
 ## TODO / Future Enhancements
 

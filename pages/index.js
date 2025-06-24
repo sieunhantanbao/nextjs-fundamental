@@ -21,7 +21,7 @@ export default function Home() {
   const [error, setError] = useState(null);
   // Get current page from query parameters or default to 1
   const page = parseInt(router.query.page) || 1;
-  
+
   // Fetch posts when page changes
   useEffect(() => {
     const fetchPosts = async () => {
@@ -34,7 +34,7 @@ export default function Home() {
         const data = await res.json();
         setPosts(data.posts);
         setPagination(data.pagination);
-        
+
         // Fetch featured posts (posts with isFeatured=true)
         const featuredRes = await fetch(`${API_URL}/api/posts/featured`);
         if (featuredRes.ok) {
@@ -53,7 +53,11 @@ export default function Home() {
   // Initialize masonry layout when posts change
   useMasonryInit(!loading && posts.length > 0, [posts, page]);
 
-  if (loading) return <p>Loading Posts...</p>;
+  if (loading) return (
+      <div id="preloader">
+        <div id="loader"></div>
+      </div>
+  );
   if (error) return <p>Error: {error}</p>;
   if (posts.length === 0) return <p>No Posts found.</p>;
 
