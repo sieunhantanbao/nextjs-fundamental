@@ -30,7 +30,7 @@ export default function Category({ category, posts, pagination, currentPage }) {
     const router = useRouter();
     
     // Initialize masonry layout when posts change
-    useMasonryInit(posts && posts.length > 0, [posts, currentPage]);    // The getPageNumbers function has been moved to the Pagination component
+    useMasonryInit(posts && posts.length > 0, [posts, currentPage]);
 
     if (!posts || posts.length === 0) {
         return (

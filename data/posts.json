@@ -1,4 +1,5 @@
-[  {
+[
+  {
     "id": "1",
     "type": "audio",
     "categoryId": "2",
@@ -6,11 +7,13 @@
     "categorySlug": "html",
     "publishedDate": "May 30, 2016",
     "name": "HTML5 Tips for Beginners",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "thumbnail": "https://picsum.photos/seed/html1/300/200",
     "image": "https://picsum.photos/seed/html1large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },  {
+  },
+  {
     "id": "2",
     "type": "gallery",
     "categoryId": "3",
@@ -18,13 +21,15 @@
     "categorySlug": "photography",
     "publishedDate": "October 27, 2016",
     "name": "Master the Art of Composition",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "gallery": [
       "https://picsum.photos/seed/photo1/800/600",
       "https://picsum.photos/seed/photo2/800/600",
       "https://picsum.photos/seed/photo3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "3",
     "type": "gallery",
     "categoryId": "1",
@@ -32,13 +37,15 @@
     "categorySlug": "wordpress",
     "publishedDate": "March 26, 2017",
     "name": "Optimizing WordPress for Performance",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "gallery": [
       "https://picsum.photos/seed/wp1/800/600",
       "https://picsum.photos/seed/wp2/800/600",
       "https://picsum.photos/seed/wp3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "4",
     "type": "video",
     "categoryId": "3",
@@ -46,11 +53,13 @@
     "categorySlug": "photography",
     "publishedDate": "August 23, 2017",
     "name": "Capturing Light in Photography",
+    "isFeatured": false,
     "description": "Master the techniques of capturing natural and artificial light for stunning photographs.",
     "thumbnail": "https://picsum.photos/seed/photo4/300/200",
     "image": "https://picsum.photos/seed/photo4large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
-  },  {
+  },
+  {
     "id": "5",
     "type": "audio",
     "categoryId": "2",
@@ -58,11 +67,13 @@
     "categorySlug": "html",
     "publishedDate": "January 20, 2018",
     "name": "Semantic HTML for Better Accessibility",
+    "isFeatured": false,
     "description": "How to use semantic HTML elements to create more accessible and SEO-friendly websites.",
     "thumbnail": "https://picsum.photos/seed/html2/300/200",
     "image": "https://picsum.photos/seed/html2large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
-  },  {
+  },
+  {
     "id": "6",
     "type": "gallery",
     "categoryId": "5",
@@ -70,13 +81,15 @@
     "categorySlug": "mockup",
     "publishedDate": "June 19, 2018",
     "name": "Premium Mockups for Client-Winning Presentations",
+    "isFeatured": false,
     "description": "A collection of high-quality mockup templates that help designers showcase work effectively to clients.",
     "gallery": [
       "https://picsum.photos/seed/premium_mockup1/800/600",
       "https://picsum.photos/seed/premium_mockup2/800/600",
       "https://picsum.photos/seed/premium_mockup3/800/600"
     ]
-  },{
+  },
+  {
     "id": "7",
     "type": "video",
     "categoryId": "5",
@@ -84,11 +97,13 @@
     "categorySlug": "mockup",
     "publishedDate": "November 16, 2018",
     "name": "Free Mockup Resources for Designers",
+    "isFeatured": false,
     "description": "Where to find high-quality free mockup templates for your design projects.",
     "thumbnail": "https://picsum.photos/seed/mockup4/300/200",
     "image": "https://picsum.photos/seed/mockup4large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
-  },  {
+  },
+  {
     "id": "8",
     "type": "audio",
     "categoryId": "5",
@@ -96,11 +111,13 @@
     "categorySlug": "mockup",
     "publishedDate": "April 15, 2019",
     "name": "Creating Professional Mockups",
+    "isFeatured": false,
     "description": "Tips and techniques for creating professional mockups that impress clients.",
     "thumbnail": "https://picsum.photos/seed/mockup5/300/200",
     "image": "https://picsum.photos/seed/mockup5large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
-  },  {
+  },
+  {
     "id": "9",
     "type": "gallery",
     "categoryId": "6",
@@ -108,13 +125,15 @@
     "categorySlug": "branding",
     "publishedDate": "September 12, 2019",
     "name": "Historic Brand Design Analysis: Global Icons",
+    "isFeatured": false,
     "description": "A deep analysis of the design elements that made certain global brands instantly recognizable worldwide.",
     "gallery": [
       "https://picsum.photos/seed/brand_icons1/800/600",
       "https://picsum.photos/seed/brand_icons2/800/600",
       "https://picsum.photos/seed/brand_icons3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "10",
     "type": "gallery",
     "categoryId": "4",
@@ -122,13 +141,15 @@
     "categorySlug": "ui",
     "publishedDate": "February 09, 2020",
     "name": "Minimalism in UI: Clean Design Gallery",
+    "isFeatured": false,
     "description": "A visual exploration of minimalist UI design principles that create powerful and effective user experiences.",
     "gallery": [
       "https://picsum.photos/seed/minimal_ui1/800/600",
       "https://picsum.photos/seed/minimal_ui2/800/600",
       "https://picsum.photos/seed/minimal_ui3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "11",
     "type": "audio",
     "categoryId": "2",
@@ -136,11 +157,13 @@
     "categorySlug": "html",
     "publishedDate": "July 08, 2020",
     "name": "Modern HTML Elements",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "thumbnail": "https://picsum.photos/seed/html_modern11/300/200",
     "image": "https://picsum.photos/seed/html_modern11large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },{
+  },
+  {
     "id": "12",
     "type": "video",
     "categoryId": "3",
@@ -148,11 +171,13 @@
     "categorySlug": "photography",
     "publishedDate": "December 05, 2020",
     "name": "Urban Photography Masterclass: Video Guide",
+    "isFeatured": false,
     "description": "Video tutorial on capturing the essence of urban environments through creative photography techniques.",
     "thumbnail": "https://picsum.photos/seed/urban_video12/300/200",
     "image": "https://picsum.photos/seed/urban_video12large/1300/650",
     "video": "https://www.youtube.com/embed/pcSv22DTDUI"
-  },{
+  },
+  {
     "id": "13",
     "type": "standard",
     "categoryId": "4",
@@ -160,10 +185,12 @@
     "categorySlug": "ui",
     "publishedDate": "May 04, 2021",
     "name": "Emerging UI Design Trends of 2024",
+    "isFeatured": true,
     "description": "Discover the latest emerging trends in user interface design that are shaping the digital landscape.",
     "thumbnail": "https://picsum.photos/seed/ui_trends13/300/200",
     "image": "https://picsum.photos/seed/ui_trends13large/1300/650"
-  },{
+  },
+  {
     "id": "14",
     "type": "standard",
     "categoryId": "2",
@@ -171,10 +198,12 @@
     "categorySlug": "html",
     "publishedDate": "October 01, 2021",
     "name": "Essential HTML5 Techniques for Beginners",
+    "isFeatured": false,
     "description": "Understanding HTML5 fundamentals and how to leverage new elements for better website structure.",
     "thumbnail": "https://picsum.photos/seed/html_beginner14/300/200",
     "image": "https://picsum.photos/seed/html_beginner14large/1300/650"
-  },  {
+  },
+  {
     "id": "15",
     "type": "audio",
     "categoryId": "4",
@@ -182,11 +211,13 @@
     "categorySlug": "ui",
     "publishedDate": "February 28, 2022",
     "name": "Designing for Accessibility in UI",
+    "isFeatured": false,
     "description": "Understand the principles behind clean, effective, and accessible user interfaces.",
     "thumbnail": "https://picsum.photos/seed/ui_access15/300/200",
     "image": "https://picsum.photos/seed/ui_access15large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },  {
+  },
+  {
     "id": "16",
     "type": "video",
     "categoryId": "4",
@@ -194,11 +225,13 @@
     "categorySlug": "ui",
     "publishedDate": "July 28, 2022",
     "name": "Practical UI Accessibility Implementation",
+    "isFeatured": false,
     "description": "Video tutorial on implementing accessible UI features for all users, including those with disabilities.",
     "thumbnail": "https://picsum.photos/seed/ui_access_video16/300/200",
     "image": "https://picsum.photos/seed/ui_access_video16large/1300/650",
     "video": "https://www.youtube.com/embed/WO2b03Zdu4Q"
-  },  {
+  },
+  {
     "id": "17",
     "type": "gallery",
     "categoryId": "1",
@@ -206,13 +239,15 @@
     "categorySlug": "wordpress",
     "publishedDate": "December 25, 2022",
     "name": "Mastering WordPress Themes",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "gallery": [
       "https://picsum.photos/seed/wp_theme1/800/600",
       "https://picsum.photos/seed/wp_theme2/800/600",
       "https://picsum.photos/seed/wp_theme3/800/600"
     ]
-  },{
+  },
+  {
     "id": "18",
     "type": "gallery",
     "categoryId": "1",
@@ -220,13 +255,15 @@
     "categorySlug": "wordpress",
     "publishedDate": "May 24, 2023",
     "name": "WordPress SEO Optimization Gallery",
+    "isFeatured": false,
     "description": "Visual guide to implementing effective SEO strategies in WordPress websites for better rankings.",
     "gallery": [
       "https://picsum.photos/seed/wp_seo_gallery1/800/600",
       "https://picsum.photos/seed/wp_seo_gallery2/800/600",
       "https://picsum.photos/seed/wp_seo_gallery3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "19",
     "type": "standard",
     "categoryId": "5",
@@ -234,10 +271,12 @@
     "categorySlug": "mockup",
     "publishedDate": "October 21, 2023",
     "name": "Free Mockup Resources for Designers",
+    "isFeatured": false,
     "description": "Explore best practices in showcasing your work with realistic design mockups.",
     "thumbnail": "https://picsum.photos/seed/mockup_free19/300/200",
     "image": "https://picsum.photos/seed/mockup_free19large/1300/650"
-  },  {
+  },
+  {
     "id": "20",
     "type": "video",
     "categoryId": "5",
@@ -245,11 +284,13 @@
     "categorySlug": "mockup",
     "publishedDate": "March 19, 2024",
     "name": "Presenting Your Design with Mockups",
+    "isFeatured": false,
     "description": "Explore best practices in showcasing your work with realistic design mockups.",
     "thumbnail": "https://picsum.photos/seed/mockup_present20/300/200",
     "image": "https://picsum.photos/seed/mockup_present20large/1300/650",
     "video": "https://www.youtube.com/embed/2PuFyjAs7JA"
-  },  {
+  },
+  {
     "id": "21",
     "type": "audio",
     "categoryId": "5",
@@ -257,11 +298,13 @@
     "categorySlug": "mockup",
     "publishedDate": "April 01, 2024",
     "name": "Audio Guide: Client Presentations with Mockups",
+    "isFeatured": false,
     "description": "Audio walkthrough of effective techniques for using mockups in client presentations and design pitches.",
     "thumbnail": "https://picsum.photos/seed/mockup_audio21/300/200",
     "image": "https://picsum.photos/seed/mockup_audio21large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },{
+  },
+  {
     "id": "22",
     "type": "standard",
     "categoryId": "3",
@@ -269,6 +312,7 @@
     "categorySlug": "photography",
     "publishedDate": "April 04, 2024",
     "name": "Street Photography in Modern Cities",
+    "isFeatured": false,
     "description": "How to document urban life with authenticity and create compelling street photography narratives.",
     "thumbnail": "https://picsum.photos/seed/street_photo22/300/200",
     "image": "https://picsum.photos/seed/street_photo22large/1300/650"
@@ -281,13 +325,15 @@
     "categorySlug": "branding",
     "publishedDate": "April 07, 2024",
     "name": "Building a Consistent Brand Identity",
+    "isFeatured": false,
     "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
     "gallery": [
       "https://picsum.photos/id/902/800/600",
       "https://picsum.photos/id/903/800/600",
       "https://picsum.photos/id/904/800/600"
     ]
-  },  {
+  },
+  {
     "id": "24",
     "type": "video",
     "categoryId": "1",
@@ -295,6 +341,7 @@
     "categorySlug": "wordpress",
     "publishedDate": "April 10, 2024",
     "name": "Video Guide: WordPress SEO Mastery",
+    "isFeatured": false,
     "description": "Step-by-step video tutorial on implementing advanced SEO techniques in WordPress websites.",
     "thumbnail": "https://picsum.photos/seed/wp_seo_video24/300/200",
     "image": "https://picsum.photos/seed/wp_seo_video24large/1300/650",
@@ -308,13 +355,15 @@
     "categorySlug": "html",
     "publishedDate": "April 13, 2024",
     "name": "Semantic HTML for Better Accessibility",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "gallery": [
       "https://picsum.photos/id/904/800/600",
       "https://picsum.photos/id/905/800/600",
       "https://picsum.photos/id/906/800/600"
     ]
-  },  {
+  },
+  {
     "id": "26",
     "type": "gallery",
     "categoryId": "4",
@@ -322,13 +371,15 @@
     "categorySlug": "ui",
     "publishedDate": "April 16, 2024",
     "name": "Visual Gallery: UI Design Innovations of 2024",
+    "isFeatured": false,
     "description": "A visual showcase of cutting-edge UI designs that are setting new standards in digital experiences.",
     "gallery": [
       "https://picsum.photos/seed/ui_innovation1/800/600",
       "https://picsum.photos/seed/ui_innovation2/800/600",
       "https://picsum.photos/seed/ui_innovation3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "27",
     "type": "video",
     "categoryId": "3",
@@ -336,11 +387,13 @@
     "categorySlug": "photography",
     "publishedDate": "April 19, 2024",
     "name": "Capturing Light in Photography",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "thumbnail": "https://picsum.photos/seed/photo_light27/300/200",
     "image": "https://picsum.photos/seed/photo_light27large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
-  },{
+  },
+  {
     "id": "28",
     "type": "gallery",
     "categoryId": "6",
@@ -348,13 +401,15 @@
     "categorySlug": "branding",
     "publishedDate": "April 22, 2024",
     "name": "Tech Industry Branding Excellence: Case Studies",
+    "isFeatured": false,
     "description": "Examining successful branding strategies from leading technology companies and startups.",
     "gallery": [
       "https://picsum.photos/seed/tech_brand1/800/600",
       "https://picsum.photos/seed/tech_brand2/800/600",
       "https://picsum.photos/seed/tech_brand3/800/600"
     ]
-  },  {
+  },
+  {
     "id": "29",
     "type": "gallery",
     "categoryId": "4",
@@ -362,13 +417,15 @@
     "categorySlug": "ui",
     "publishedDate": "April 25, 2024",
     "name": "White Space in UI: Minimalist Design Showcase",
+    "isFeatured": false,
     "description": "Case studies demonstrating how strategic use of white space enhances user interface clarity and usability.",
     "gallery": [
       "https://picsum.photos/seed/whitespace_ui1/800/600",
       "https://picsum.photos/seed/whitespace_ui2/800/600",
       "https://picsum.photos/seed/whitespace_ui3/800/600"
     ]
-  },{
+  },
+  {
     "id": "30",
     "type": "video",
     "categoryId": "4",
@@ -376,11 +433,13 @@
     "categorySlug": "ui",
     "publishedDate": "April 28, 2024",
     "name": "Video Walkthrough: UI Animation Trends for 2024",
+    "isFeatured": false,
     "description": "An in-depth video analysis of motion design and animation techniques reshaping user interfaces.",
     "thumbnail": "https://picsum.photos/seed/ui_video30/300/200",
     "image": "https://picsum.photos/seed/ui_video30large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
-  },  {
+  },
+  {
     "id": "31",
     "type": "gallery",
     "categoryId": "5",
@@ -388,6 +447,7 @@
     "categorySlug": "mockup",
     "publishedDate": "May 01, 2024",
     "name": "Innovative Product Mockup Showcase",
+    "isFeatured": false,
     "description": "Creative product mockup examples that bring designs to life and help visualize the final product.",
     "gallery": [
       "https://picsum.photos/seed/product_mockup1/800/600",
@@ -403,13 +463,15 @@
     "categorySlug": "wordpress",
     "publishedDate": "May 04, 2024",
     "name": "Optimizing WordPress for Performance",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "gallery": [
       "https://picsum.photos/id/911/800/600",
       "https://picsum.photos/id/912/800/600",
       "https://picsum.photos/id/913/800/600"
     ]
-  },  {
+  },
+  {
     "id": "33",
     "type": "audio",
     "categoryId": "6",
@@ -417,11 +479,13 @@
     "categorySlug": "branding",
     "publishedDate": "May 07, 2024",
     "name": "Audio Analysis: Sonic Branding Success Stories",
+    "isFeatured": false,
     "description": "How audio elements and sound design contribute to memorable brand identities in the digital age.",
     "thumbnail": "https://picsum.photos/seed/sonic_brand33/300/200",
     "image": "https://picsum.photos/seed/sonic_brand33large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },  {
+  },
+  {
     "id": "34",
     "type": "gallery",
     "categoryId": "6",
@@ -429,13 +493,15 @@
     "categorySlug": "branding",
     "publishedDate": "May 10, 2024",
     "name": "Luxury Brand Identity Design Showcase",
+    "isFeatured": false,
     "description": "Exploring the design elements that define luxury brand identities across fashion, automotive and lifestyle sectors.",
     "gallery": [
       "https://picsum.photos/seed/luxury_brand1/800/600",
       "https://picsum.photos/seed/luxury_brand2/800/600",
       "https://picsum.photos/seed/luxury_brand3/800/600"
     ]
-  },{
+  },
+  {
     "id": "35",
     "type": "gallery",
     "categoryId": "4",
@@ -443,13 +509,15 @@
     "categorySlug": "ui",
     "publishedDate": "May 13, 2024",
     "name": "Inspirational UI Color Schemes for 2024",
+    "isFeatured": false,
     "description": "A carefully curated gallery of color palettes and schemes that are defining modern user interfaces.",
     "gallery": [
       "https://picsum.photos/seed/ui_color1/800/600",
       "https://picsum.photos/seed/ui_color2/800/600",
       "https://picsum.photos/seed/ui_color3/800/600"
     ]
-  },{
+  },
+  {
     "id": "36",
     "type": "audio",
     "categoryId": "2",
@@ -457,11 +525,13 @@
     "categorySlug": "html",
     "publishedDate": "May 16, 2024",
     "name": "HTML5 Audio Features for Web Developers",
+    "isFeatured": false,
     "description": "Exploring HTML5's powerful audio capabilities and how to implement them in your web projects.",
     "thumbnail": "https://picsum.photos/seed/html_audio36/300/200",
     "image": "https://picsum.photos/seed/html_audio36large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },  {
+  },
+  {
     "id": "37",
     "type": "video",
     "categoryId": "1",
@@ -469,11 +539,13 @@
     "categorySlug": "wordpress",
     "publishedDate": "May 19, 2024",
     "name": "WordPress SEO for E-commerce Sites",
+    "isFeatured": false,
     "description": "Specialized SEO strategies for WordPress e-commerce websites to boost visibility and conversions.",
     "thumbnail": "https://picsum.photos/seed/wp_ecom_seo37/300/200",
     "image": "https://picsum.photos/seed/wp_ecom_seo37large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
-  },  {
+  },
+  {
     "id": "38",
     "type": "standard",
     "categoryId": "1",
@@ -481,10 +553,12 @@
     "categorySlug": "wordpress",
     "publishedDate": "May 22, 2024",
     "name": "Optimizing WordPress for Performance",
+    "isFeatured": true,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "thumbnail": "https://picsum.photos/seed/wp_perf38/300/200",
     "image": "https://picsum.photos/seed/wp_perf38large/1300/650"
-  },  {
+  },
+  {
     "id": "39",
     "type": "standard",
     "categoryId": "2",
@@ -492,17 +566,20 @@
     "categorySlug": "html",
     "publishedDate": "May 25, 2024",
     "name": "Semantic HTML for Better Accessibility",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "thumbnail": "https://picsum.photos/seed/html_semantic39/300/200",
     "image": "https://picsum.photos/seed/html_semantic39large/1300/650"
   },
-  {    "id": "40",
+  {
+    "id": "40",
     "type": "gallery",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "May 28, 2024",
     "name": "Branding Portfolio Examples for New Businesses",
+    "isFeatured": false,
     "description": "A visual collection of effective brand identities that communicate clear values and positioning.",
     "gallery": [
       "https://picsum.photos/seed/branding40a/800/600",
@@ -510,18 +587,21 @@
       "https://picsum.photos/seed/branding40c/800/600"
     ]
   },
-  {    "id": "41",
+  {
+    "id": "41",
     "type": "audio",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "May 31, 2024",
     "name": "Brand Voice and Messaging Strategy",
+    "isFeatured": false,
     "description": "Audio guide on developing consistent brand messaging that speaks to your audience with authenticity.",
     "thumbnail": "https://picsum.photos/seed/branding41/300/200",
     "image": "https://picsum.photos/seed/branding41large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
-  },  {
+  },
+  {
     "id": "42",
     "type": "audio",
     "categoryId": "1",
@@ -529,11 +609,13 @@
     "categorySlug": "wordpress",
     "publishedDate": "June 03, 2024",
     "name": "WordPress SEO Audio Guide: Rankings Boost",
+    "isFeatured": false,
     "description": "Audio walkthrough of essential WordPress SEO strategies to improve search rankings and traffic.",
     "thumbnail": "https://picsum.photos/seed/wp_seo_audio42/300/200",
     "image": "https://picsum.photos/seed/wp_seo_audio42large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
-  },  {
+  },
+  {
     "id": "43",
     "type": "standard",
     "categoryId": "6",
@@ -541,10 +623,12 @@
     "categorySlug": "branding",
     "publishedDate": "June 06, 2024",
     "name": "Branding Basics for Startups",
+    "isFeatured": false,
     "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
     "thumbnail": "https://picsum.photos/seed/brand_startup43/300/200",
     "image": "https://picsum.photos/seed/brand_startup43large/1300/650"
-  },{
+  },
+  {
     "id": "44",
     "type": "video",
     "categoryId": "1",
@@ -552,6 +636,7 @@
     "categorySlug": "wordpress",
     "publishedDate": "June 09, 2024",
     "name": "Technical WordPress SEO: Advanced Strategies",
+    "isFeatured": false,
     "description": "Deep dive into technical SEO aspects for WordPress including schema markup, core web vitals, and indexing.",
     "thumbnail": "https://picsum.photos/seed/wp_tech_seo44/300/200",
     "image": "https://picsum.photos/seed/wp_tech_seo44large/1300/650",
@@ -565,13 +650,15 @@
     "categorySlug": "wordpress",
     "publishedDate": "June 12, 2024",
     "name": "Mastering WordPress Themes",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "gallery": [
       "https://picsum.photos/id/924/800/600",
       "https://picsum.photos/id/925/800/600",
       "https://picsum.photos/id/926/800/600"
     ]
-  },  {
+  },
+  {
     "id": "46",
     "type": "standard",
     "categoryId": "6",
@@ -579,10 +666,12 @@
     "categorySlug": "branding",
     "publishedDate": "June 15, 2024",
     "name": "Strategic Brand Development for New Ventures",
+    "isFeatured": true,
     "description": "Proven strategies for establishing strong brand foundations for early-stage companies and startups.",
     "thumbnail": "https://picsum.photos/seed/brand_strategy46/300/200",
     "image": "https://picsum.photos/seed/brand_strategy46large/1300/650"
-  },  {
+  },
+  {
     "id": "47",
     "type": "video",
     "categoryId": "2",
@@ -590,11 +679,13 @@
     "categorySlug": "html",
     "publishedDate": "June 18, 2024",
     "name": "Modern HTML Elements",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "thumbnail": "https://picsum.photos/seed/html_modern47/300/200",
     "image": "https://picsum.photos/seed/html_modern47large/1300/650",
     "video": "https://www.youtube.com/embed/pcSv22DTDUI"
-  },  {
+  },
+  {
     "id": "48",
     "type": "standard",
     "categoryId": "4",
@@ -602,22 +693,26 @@
     "categorySlug": "ui",
     "publishedDate": "June 21, 2024",
     "name": "Designing for Accessibility in UI",
+    "isFeatured": true,
     "description": "Understand the principles behind clean, effective, and accessible user interfaces.",
     "thumbnail": "https://picsum.photos/seed/ui_access48/300/200",
     "image": "https://picsum.photos/seed/ui_access48large/1300/650"
   },
-  {    "id": "49",
+  {
+    "id": "49",
     "type": "video",
     "categoryId": "3",
     "categoryName": "Photography",
     "categorySlug": "photography",
     "publishedDate": "June 24, 2024",
     "name": "Capturing Light in Photography",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "thumbnail": "https://picsum.photos/seed/photo49/300/200",
     "image": "https://picsum.photos/seed/photo49large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
-  },  {
+  },
+  {
     "id": "50",
     "type": "standard",
     "categoryId": "1",
@@ -625,10 +720,12 @@
     "categorySlug": "wordpress",
     "publishedDate": "June 27, 2024",
     "name": "Optimizing WordPress for Performance",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "thumbnail": "https://picsum.photos/seed/wp_optim50/300/200",
     "image": "https://picsum.photos/seed/wp_optim50large/1300/650"
-  },  {
+  },
+  {
     "id": "51",
     "type": "standard",
     "categoryId": "5",
@@ -636,22 +733,26 @@
     "categorySlug": "mockup",
     "publishedDate": "June 30, 2024",
     "name": "Presenting Your Design with Mockups",
+    "isFeatured": false,
     "description": "Explore best practices in showcasing your work with realistic design mockups.",
     "thumbnail": "https://picsum.photos/seed/mockup_present51/300/200",
     "image": "https://picsum.photos/seed/mockup_present51large/1300/650"
   },
-  {    "id": "52",
+  {
+    "id": "52",
     "type": "audio",
     "categoryId": "4",
     "categoryName": "UI",
     "categorySlug": "ui",
     "publishedDate": "July 03, 2024",
     "name": "Designing for Accessibility in UI",
+    "isFeatured": false,
     "description": "Understand the principles behind clean, effective, and accessible user interfaces.",
     "thumbnail": "https://picsum.photos/seed/ui52/300/200",
     "image": "https://picsum.photos/seed/ui52large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
-  },  {
+  },
+  {
     "id": "53",
     "type": "standard",
     "categoryId": "3",
@@ -659,6 +760,7 @@
     "categorySlug": "photography",
     "publishedDate": "July 06, 2024",
     "name": "Urban Visual Storytelling Through Photography",
+    "isFeatured": false,
     "description": "How to craft compelling visual narratives in urban environments with creative photography.",
     "thumbnail": "https://picsum.photos/seed/urban_story53/300/200",
     "image": "https://picsum.photos/seed/urban_story53large/1300/650"
@@ -671,13 +773,15 @@
     "categorySlug": "photography",
     "publishedDate": "July 09, 2024",
     "name": "Exploring Urban Photography",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "gallery": [
       "https://picsum.photos/id/933/800/600",
       "https://picsum.photos/id/934/800/600",
       "https://picsum.photos/id/935/800/600"
     ]
-  },  {
+  },
+  {
     "id": "55",
     "type": "video",
     "categoryId": "1",
@@ -685,35 +789,41 @@
     "categorySlug": "wordpress",
     "publishedDate": "July 12, 2024",
     "name": "WordPress Performance Video Guide",
+    "isFeatured": false,
     "description": "Step-by-step video tutorial on optimizing WordPress sites for maximum performance and speed.",
     "thumbnail": "https://picsum.photos/seed/wp_perf_video55/300/200",
     "image": "https://picsum.photos/seed/wp_perf_video55large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
-  {    "id": "56",
+  {
+    "id": "56",
     "type": "audio",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "July 15, 2024",
     "name": "WordPress SEO Podcast: Ranking Higher",
+    "isFeatured": false,
     "description": "Audio guide on implementing advanced SEO techniques specifically for WordPress websites.",
     "thumbnail": "https://picsum.photos/seed/wordpress56/300/200",
     "image": "https://picsum.photos/seed/wordpress56large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
   },
-  {    "id": "57",
+  {
+    "id": "57",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "July 18, 2024",
     "name": "HTML5 Audio Course for Web Developers",
+    "isFeatured": false,
     "description": "A comprehensive audio tutorial on mastering semantic HTML5 elements for modern web development.",
     "thumbnail": "https://picsum.photos/seed/html57/300/200",
     "image": "https://picsum.photos/seed/html57large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
-  },  {
+  },
+  {
     "id": "58",
     "type": "standard",
     "categoryId": "3",
@@ -721,17 +831,20 @@
     "categorySlug": "photography",
     "publishedDate": "July 21, 2024",
     "name": "Capturing Light in Photography",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "thumbnail": "https://picsum.photos/seed/photo_light58/300/200",
     "image": "https://picsum.photos/seed/photo_light58large/1300/650"
   },
-  {    "id": "59",
+  {
+    "id": "59",
     "type": "audio",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "July 24, 2024",
     "name": "Theme Development Masterclass",
+    "isFeatured": false,
     "description": "Audio series on creating professional WordPress themes from scratch with best coding practices.",
     "thumbnail": "https://picsum.photos/seed/wordpress59/300/200",
     "image": "https://picsum.photos/seed/wordpress59large/1300/650",
@@ -745,13 +858,15 @@
     "categorySlug": "photography",
     "publishedDate": "July 27, 2024",
     "name": "Exploring Urban Photography",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "gallery": [
       "https://picsum.photos/id/939/800/600",
       "https://picsum.photos/id/940/800/600",
       "https://picsum.photos/id/941/800/600"
     ]
-  },  {
+  },
+  {
     "id": "61",
     "type": "video",
     "categoryId": "4",
@@ -759,23 +874,27 @@
     "categorySlug": "ui",
     "publishedDate": "July 30, 2024",
     "name": "Minimal UI Design Video Inspiration",
+    "isFeatured": false,
     "description": "Video walkthrough of minimalist UI design principles that create beautiful and functional interfaces.",
     "thumbnail": "https://picsum.photos/seed/ui_minimal_video61/300/200",
     "image": "https://picsum.photos/seed/ui_minimal_video61large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
   },
-  {    "id": "62",
+  {
+    "id": "62",
     "type": "audio",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "August 02, 2024",
     "name": "Audio Guide: Creating Photorealistic Mockups",
+    "isFeatured": false,
     "description": "A detailed walkthrough of techniques for creating professional mockups that highlight design concepts.",
     "thumbnail": "https://picsum.photos/seed/mockup62/300/200",
     "image": "https://picsum.photos/seed/mockup62large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
-  },  {
+  },
+  {
     "id": "63",
     "type": "standard",
     "categoryId": "3",
@@ -783,10 +902,12 @@
     "categorySlug": "photography",
     "publishedDate": "August 05, 2024",
     "name": "Master the Art of Composition",
+    "isFeatured": false,
     "description": "Dive into the world of visual storytelling and improve your photo skills.",
     "thumbnail": "https://picsum.photos/seed/photo_comp63/300/200",
     "image": "https://picsum.photos/seed/photo_comp63large/1300/650"
-  },  {
+  },
+  {
     "id": "64",
     "type": "standard",
     "categoryId": "1",
@@ -794,22 +915,26 @@
     "categorySlug": "wordpress",
     "publishedDate": "August 08, 2024",
     "name": "Mastering WordPress Themes",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "thumbnail": "https://picsum.photos/seed/wp_themes64/300/200",
     "image": "https://picsum.photos/seed/wp_themes64large/1300/650"
   },
-  {    "id": "65",
+  {
+    "id": "65",
     "type": "audio",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "August 11, 2024",
     "name": "Audio Analysis: Famous Brand Transformations",
+    "isFeatured": false,
     "description": "Listen to detailed breakdowns of how iconic brands evolved their visual identities over time.",
     "thumbnail": "https://picsum.photos/seed/branding65/300/200",
     "image": "https://picsum.photos/seed/branding65large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
-  },  {
+  },
+  {
     "id": "66",
     "type": "standard",
     "categoryId": "2",
@@ -817,10 +942,12 @@
     "categorySlug": "html",
     "publishedDate": "August 14, 2024",
     "name": "HTML5 Best Practices for Modern Web Development",
+    "isFeatured": false,
     "description": "Advanced techniques and best practices for leveraging HTML5 features in contemporary web applications.",
     "thumbnail": "https://picsum.photos/seed/html_best66/300/200",
     "image": "https://picsum.photos/seed/html_best66large/1300/650"
-  },  {
+  },
+  {
     "id": "67",
     "type": "standard",
     "categoryId": "5",
@@ -828,10 +955,12 @@
     "categorySlug": "mockup",
     "publishedDate": "August 17, 2024",
     "name": "Professional Mockups for Client Presentations",
+    "isFeatured": false,
     "description": "How to create high-quality mockups that impress clients and showcase your designs professionally.",
     "thumbnail": "https://picsum.photos/seed/mockup_pro67/300/200",
     "image": "https://picsum.photos/seed/mockup_pro67large/1300/650"
-  },  {
+  },
+  {
     "id": "68",
     "type": "gallery",
     "categoryId": "3",
@@ -839,6 +968,7 @@
     "categorySlug": "photography",
     "publishedDate": "August 20, 2024",
     "name": "Urban Architecture Photography Collection",
+    "isFeatured": false,
     "description": "A curated gallery of striking urban architecture photography showcasing modern design and city landscapes.",
     "gallery": [
       "https://picsum.photos/seed/urban_arch1/800/600",
@@ -854,6 +984,7 @@
     "categorySlug": "ui",
     "publishedDate": "August 23, 2024",
     "name": "Minimal UI Designs that Inspire",
+    "isFeatured": false,
     "description": "Understand the principles behind clean, effective, and accessible user interfaces.",
     "gallery": [
       "https://picsum.photos/id/948/800/600",
@@ -861,25 +992,29 @@
       "https://picsum.photos/id/950/800/600"
     ]
   },
-  {    "id": "70",
+  {
+    "id": "70",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "August 26, 2024",
     "name": "Web Standards and HTML5: Audio Guide",
+    "isFeatured": false,
     "description": "An exploration of HTML5 standards and how they've changed the landscape of web development.",
     "thumbnail": "https://picsum.photos/seed/html70/300/200",
     "image": "https://picsum.photos/seed/html70large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
   },
-  {    "id": "71",
+  {
+    "id": "71",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "August 29, 2024",
     "name": "Semantic HTML for Better SEO",
+    "isFeatured": false,
     "description": "An audio discussion on how proper HTML structure can significantly improve your site's search engine visibility.",
     "thumbnail": "https://picsum.photos/seed/html71/300/200",
     "image": "https://picsum.photos/seed/html71large/1300/650",
@@ -893,6 +1028,7 @@
     "categorySlug": "wordpress",
     "publishedDate": "September 01, 2024",
     "name": "Mastering WordPress Themes",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "gallery": [
       "https://picsum.photos/id/951/800/600",
@@ -901,12 +1037,14 @@
     ]
   },
   {
-    "id": "73",    "type": "audio",
+    "id": "73",
+    "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "September 04, 2024",
     "name": "Accessibility in HTML: Audio Guide",
+    "isFeatured": false,
     "description": "Essential practices for writing semantic HTML that works for everyone, including screen readers and assistive technologies.",
     "thumbnail": "https://picsum.photos/seed/html73/300/200",
     "image": "https://picsum.photos/seed/html73large/1300/650",
@@ -920,13 +1058,15 @@
     "categorySlug": "wordpress",
     "publishedDate": "September 07, 2024",
     "name": "WordPress SEO Tips",
+    "isFeatured": false,
     "description": "Discover the latest tools and techniques in WordPress development and optimization.",
     "gallery": [
       "https://picsum.photos/id/953/800/600",
       "https://picsum.photos/id/954/800/600",
       "https://picsum.photos/id/955/800/600"
     ]
-  },  {
+  },
+  {
     "id": "75",
     "type": "standard",
     "categoryId": "6",
@@ -934,10 +1074,12 @@
     "categorySlug": "branding",
     "publishedDate": "September 10, 2024",
     "name": "Retail Brand Identity Case Studies",
+    "isFeatured": false,
     "description": "Analysis of successful retail branding strategies and their impact on customer perception.",
     "thumbnail": "https://picsum.photos/seed/retail_brand75/300/200",
     "image": "https://picsum.photos/seed/retail_brand75large/1300/650"
-  },  {
+  },
+  {
     "id": "76",
     "type": "video",
     "categoryId": "4",
@@ -945,11 +1087,13 @@
     "categorySlug": "ui",
     "publishedDate": "September 13, 2024",
     "name": "Late 2024 UI Design Trends Video Guide",
+    "isFeatured": false,
     "description": "Video analysis of emerging user interface design trends for the final quarter of 2024.",
     "thumbnail": "https://picsum.photos/seed/ui_trends_vid76/300/200",
     "image": "https://picsum.photos/seed/ui_trends_vid76large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
-  },  {
+  },
+  {
     "id": "77",
     "type": "video",
     "categoryId": "6",
@@ -957,11 +1101,13 @@
     "categorySlug": "branding",
     "publishedDate": "September 16, 2024",
     "name": "Building a Consistent Brand Identity",
+    "isFeatured": false,
     "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
     "thumbnail": "https://picsum.photos/seed/brand_identity77/300/200",
     "image": "https://picsum.photos/seed/brand_identity77large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
-  },  {
+  },
+  {
     "id": "78",
     "type": "video",
     "categoryId": "3",
@@ -969,11 +1115,13 @@
     "categorySlug": "photography",
     "publishedDate": "September 19, 2024",
     "name": "Video Guide to Natural Light Photography",
+    "isFeatured": false,
     "description": "Video tutorial on harnessing natural light in various conditions for dramatic photographic results.",
     "thumbnail": "https://picsum.photos/seed/photo_light78/300/200",
     "image": "https://picsum.photos/seed/photo_light78large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
-  },  {
+  },
+  {
     "id": "79",
     "type": "video",
     "categoryId": "4",
@@ -981,11 +1129,13 @@
     "categorySlug": "ui",
     "publishedDate": "September 22, 2024",
     "name": "Mobile UI Design Trends for 2024",
+    "isFeatured": false,
     "description": "In-depth video analysis of mobile-specific UI trends reshaping smartphone and tablet experiences.",
     "thumbnail": "https://picsum.photos/seed/mobile_ui79/300/200",
     "image": "https://picsum.photos/seed/mobile_ui79large/1300/650",
     "video": "https://www.youtube.com/embed/pcSv22DTDUI"
-  },  {
+  },
+  {
     "id": "80",
     "type": "video",
     "categoryId": "4",
@@ -993,11 +1143,13 @@
     "categorySlug": "ui",
     "publishedDate": "September 25, 2024",
     "name": "Inclusive UI Design: Video Workshop",
+    "isFeatured": false,
     "description": "Practical video tutorial on building truly inclusive user interfaces for all users regardless of ability.",
     "thumbnail": "https://picsum.photos/seed/inclusive_ui80/300/200",
     "image": "https://picsum.photos/seed/inclusive_ui80large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
-  },  {
+  },
+  {
     "id": "81",
     "type": "video",
     "categoryId": "5",
@@ -1005,6 +1157,7 @@
     "categorySlug": "mockup",
     "publishedDate": "September 28, 2024",
     "name": "Free Mockup Resources for Designers",
+    "isFeatured": false,
     "description": "Explore best practices in showcasing your work with realistic design mockups.",
     "thumbnail": "https://picsum.photos/seed/free_mockup81/300/200",
     "image": "https://picsum.photos/seed/free_mockup81large/1300/650",
@@ -1018,6 +1171,7 @@
     "categorySlug": "branding",
     "publishedDate": "October 01, 2024",
     "name": "Case Study: Iconic Brand Designs",
+    "isFeatured": false,
     "description": "Unlock the secrets to creating memorable and trustworthy brand experiences.",
     "gallery": [
       "https://picsum.photos/id/961/800/600",
@@ -1026,17 +1180,20 @@
     ]
   },
   {
-    "id": "83",    "type": "audio",
+    "id": "83",
+    "type": "audio",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "October 04, 2024",
     "name": "Designer's Guide to Free Mockup Resources",
+    "isFeatured": false,
     "description": "A curated audio tour of the best free mockup resources and how to use them effectively in your design workflow.",
     "thumbnail": "https://picsum.photos/seed/mockup83/300/200",
     "image": "https://picsum.photos/seed/mockup83large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3"
-  },  {
+  },
+  {
     "id": "84",
     "type": "standard",
     "categoryId": "4",
@@ -1044,6 +1201,7 @@
     "categorySlug": "ui",
     "publishedDate": "October 07, 2024",
     "name": "Minimalist UI Design Principles for Modern Web",
+    "isFeatured": false,
     "description": "Core principles and techniques for creating clean, understated UI designs that put content first.",
     "thumbnail": "https://picsum.photos/seed/minimal_web_ui84/300/200",
     "image": "https://picsum.photos/seed/minimal_web_ui84large/1300/650"
@@ -1056,13 +1214,15 @@
     "categorySlug": "html",
     "publishedDate": "October 10, 2024",
     "name": "Modern HTML Elements",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "gallery": [
       "https://picsum.photos/id/964/800/600",
       "https://picsum.photos/id/965/800/600",
       "https://picsum.photos/id/966/800/600"
     ]
-  },  {
+  },
+  {
     "id": "86",
     "type": "standard",
     "categoryId": "2",
@@ -1070,29 +1230,34 @@
     "categorySlug": "html",
     "publishedDate": "October 13, 2024",
     "name": "Semantic HTML for Better Accessibility",
+    "isFeatured": false,
     "description": "Learn how HTML5 brings more power to your websites with new elements and better structure.",
     "thumbnail": "https://picsum.photos/seed/semantic_html86/300/200",
     "image": "https://picsum.photos/seed/semantic_html86large/1300/650"
   },
   {
     "id": "87",
-    "type": "audio",    "categoryId": "3",
+    "type": "audio",
+    "categoryId": "3",
     "categoryName": "Photography",
     "categorySlug": "photography",
     "publishedDate": "October 16, 2024",
     "name": "Photography Composition: Audio Masterclass",
+    "isFeatured": false,
     "description": "A detailed audio guide to the fundamental principles of composition that make photographs visually compelling.",
     "thumbnail": "https://picsum.photos/seed/photo87/300/200",
     "image": "https://picsum.photos/seed/photo87large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3"
   },
   {
-    "id": "88",    "type": "gallery",
+    "id": "88",
+    "type": "gallery",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "October 19, 2024",
     "name": "Premium Mockup Templates Collection",
+    "isFeatured": false,
     "description": "A curated gallery of high-quality mockup templates to showcase your designs professionally.",
     "gallery": [
       "https://picsum.photos/seed/mockup88a/800/600",
@@ -1100,13 +1265,15 @@
       "https://picsum.photos/seed/mockup88c/800/600"
     ]
   },
-  {    "id": "89",
+  {
+    "id": "89",
     "type": "video",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "October 22, 2024",
     "name": "Essential Branding Strategy for New Ventures",
+    "isFeatured": false,
     "description": "Learn foundational branding techniques to establish your startup's unique market presence.",
     "thumbnail": "https://picsum.photos/seed/branding89/300/200",
     "image": "https://picsum.photos/seed/branding89large/1300/650",
@@ -1120,6 +1287,7 @@
     "categorySlug": "ui",
     "publishedDate": "October 25, 2024",
     "name": "Minimal UI Designs that Inspire",
+    "isFeatured": false,
     "description": "Understand the principles behind clean, effective, and accessible user interfaces.",
     "gallery": [
       "https://picsum.photos/id/969/800/600",
@@ -1127,112 +1295,131 @@
       "https://picsum.photos/id/971/800/600"
     ]
   },
-  {    "id": "91",
+  {
+    "id": "91",
     "type": "standard",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "October 28, 2024",
     "name": "HTML5 Advanced Techniques for Web Developers",
+    "isFeatured": false,
     "description": "Discover practical HTML5 features that enhance user experiences and streamline development workflows.",
     "thumbnail": "https://picsum.photos/seed/html91/300/200",
     "image": "https://picsum.photos/seed/html91large/1300/650"
   },
-  {    "id": "92",
+  {
+    "id": "92",
     "type": "audio",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "October 31, 2024",
     "name": "Product Presentation Mockups: Audio Guide",
+    "isFeatured": false,
     "description": "How to create mockups that effectively showcase products and impress potential clients.",
     "thumbnail": "https://picsum.photos/seed/mockup92/300/200",
     "image": "https://picsum.photos/seed/mockup92large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3"
   },
-  {    "id": "93",
+  {
+    "id": "93",
     "type": "audio",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "November 03, 2024",
     "name": "SEO for WordPress: Audio Series",
+    "isFeatured": false,
     "description": "A comprehensive audio guide on implementing technical and content SEO strategies for WordPress sites.",
     "thumbnail": "https://picsum.photos/seed/wordpress93/300/200",
     "image": "https://picsum.photos/seed/wordpress93large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3"
   },
-  {    "id": "94",
+  {
+    "id": "94",
     "type": "audio",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "November 06, 2024",
     "name": "Modern HTML APIs and Features: Audio Guide",
+    "isFeatured": false,
     "description": "An exploration of the latest HTML features and browser APIs that are changing modern web development.",
     "thumbnail": "https://picsum.photos/seed/html94/300/200",
     "image": "https://picsum.photos/seed/html94large/1300/650",
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3"
   },
-  {    "id": "95",
+  {
+    "id": "95",
     "type": "video",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "November 09, 2024",
     "name": "Creating Professional Design Mockups",
+    "isFeatured": false,
     "description": "Master the art of crafting convincing mockups that showcase your designs in real-world contexts.",
     "thumbnail": "https://picsum.photos/seed/mockup95/300/200",
     "image": "https://picsum.photos/seed/mockup95large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
-  {    "id": "96",
+  {
+    "id": "96",
     "type": "video",
     "categoryId": "1",
     "categoryName": "WordPress",
     "categorySlug": "wordpress",
     "publishedDate": "November 12, 2024",
     "name": "WordPress Speed Optimization Strategies",
+    "isFeatured": false,
     "description": "Learn proven techniques to dramatically boost your WordPress site's loading speed and performance.",
     "thumbnail": "https://picsum.photos/seed/wordpress96/300/200",
     "image": "https://picsum.photos/seed/wordpress96large/1300/650",
     "video": "https://www.youtube.com/embed/wDchsz8nmbo"
   },
-  {    "id": "97",
+  {
+    "id": "97",
     "type": "video",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "November 15, 2024",
     "name": "Startup Branding: From Logo to Market Position",
+    "isFeatured": false,
     "description": "A comprehensive guide to developing a cohesive brand strategy that resonates with your target audience.",
     "thumbnail": "https://picsum.photos/seed/branding97/300/200",
     "image": "https://picsum.photos/seed/branding97large/1300/650",
     "video": "https://www.youtube.com/embed/R3GfuzLMPkA"
   },
-  {    "id": "98",
+  {
+    "id": "98",
     "type": "video",
     "categoryId": "2",
     "categoryName": "HTML",
     "categorySlug": "html",
     "publishedDate": "November 18, 2024",
     "name": "Modern HTML Elements for Interactive Websites",
+    "isFeatured": false,
     "description": "Explore semantic HTML5 elements that improve accessibility and create more engaging user experiences.",
     "thumbnail": "https://picsum.photos/seed/html98/300/200",
     "image": "https://picsum.photos/seed/html98large/1300/650",
     "video": "https://www.youtube.com/embed/pcSv22DTDUI"
   },
-  {    "id": "99",
+  {
+    "id": "99",
     "type": "standard",
     "categoryId": "6",
     "categoryName": "Branding",
     "categorySlug": "branding",
     "publishedDate": "November 21, 2024",
     "name": "Building a Consistent Brand Identity",
+    "isFeatured": false,
     "description": "Strategies for maintaining visual and messaging consistency across all brand touchpoints.",
     "thumbnail": "https://picsum.photos/seed/branding99/300/200",
     "image": "https://picsum.photos/seed/branding99large/1300/650"
-  },  {
+  },
+  {
     "id": "100",
     "type": "video",
     "categoryId": "3",
@@ -1240,6 +1427,7 @@
     "categorySlug": "photography",
     "publishedDate": "November 24, 2024",
     "name": "Night Photography in Urban Environments",
+    "isFeatured": false,
     "description": "Techniques for capturing stunning night-time urban landscapes and city lights through photography.",
     "thumbnail": "https://picsum.photos/seed/night_urban100/300/200",
     "image": "https://picsum.photos/seed/night_urban100large/1300/650",

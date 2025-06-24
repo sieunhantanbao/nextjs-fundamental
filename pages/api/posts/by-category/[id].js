@@ -1,4 +1,4 @@
-import posts from '../../../../data/posts.json'; // Adjust the path as necessary
+import posts from '../../../../data/posts.json';
 
 export default function handler(req, res) {
     const { id } = req.query;

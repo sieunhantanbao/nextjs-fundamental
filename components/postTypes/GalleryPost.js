@@ -39,7 +39,7 @@ export default function GalleryPost({ post }) {
                                 }
                                 // Only call masonry if it is loaded
                                 if (hasMasonry) {
-                                   // $(this).parents('.bricks-wrapper').masonry('layout');
+                                    $(this).parents('.bricks-wrapper').masonry('layout');
                                 }
                             },
                         });
@@ -61,7 +61,6 @@ export default function GalleryPost({ post }) {
                         ))}
                     </ul>
                 </div>
-
             </div>
 
             <div className="entry-text">
@@ -72,15 +71,12 @@ export default function GalleryPost({ post }) {
                             <a href={`/categories/${post.categorySlug}`}>{post.categoryName}</a>
                         </span>
                     </div>
-
                     <h1 className="entry-title"><a href={`/blogs/standard-galleries/${post.id}`}>{post.name}</a></h1>
-
                 </div>
                 <div className="entry-excerpt">
                     {post.description}
                 </div>
             </div>
-
         </article>
     )
 }

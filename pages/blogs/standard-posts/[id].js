@@ -3,7 +3,7 @@ import Comments from '../../../components/commons/Comment';
 import { API_URL } from '../../../config';
 
 export async function getServerSideProps(context) {
-    const { id } = context.params;    // Fetch posts data from API or DB
+    const { id } = context.params;    
     const data = await fetch(`${API_URL}/api/posts/${id}`).then(res => res.json());
 
     return {

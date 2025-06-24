@@ -1,11 +1,7 @@
-import fs from 'fs';
-import path from 'path';
+import posts from '../../../../data/posts.json';
 
 function generateComments() {
-  // Read posts data from JSON file
-  const postsFilePath = path.join(process.cwd(), 'data', 'posts.json');
-  const postsData = JSON.parse(fs.readFileSync(postsFilePath, 'utf8'));
-  const totalPosts = postsData.length;
+  const totalPosts = posts.length;
   
   const comments = [];
   const names = [

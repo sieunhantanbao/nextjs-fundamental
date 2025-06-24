@@ -1,4 +1,4 @@
-import categories from '../../../data/categories.json'; // Adjust the path as necessary
+import categories from '../../../data/categories.json'; 
 
 export default function handler(req, res) {
     const { slug } = req.query;

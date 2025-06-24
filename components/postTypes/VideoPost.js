@@ -16,7 +16,6 @@ export default function VideoPost({ post }) {
 
     // Extract YouTube video ID from post.video (supports both embed and watch URLs)
     const getYouTubeId = url => {
-        // Handles both https://www.youtube.com/embed/VIDEOID and https://www.youtube.com/watch?v=VIDEOID
         const embedMatch = url.match(/youtube\.com\/embed\/([\w-]+)/);
         if (embedMatch) return embedMatch[1];
         const watchMatch = url.match(/[?&]v=([\w-]+)/);
