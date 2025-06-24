@@ -1,12 +1,14 @@
 {
   "name": "sd2411-news-cms",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
+  "private": true,  "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:dev": "docker-compose up",
+    "docker:build": "docker build -t news-cms .",
+    "docker:run": "docker run -p 3000:3000 news-cms"
   },
   "dependencies": {
     "fitvids": "^2.1.1",

@@ -47,10 +47,11 @@ A modern, responsive news and content management system built with Next.js, feat
 
 ### Prerequisites
 
-- Node.js 16.x or later
-- npm or yarn package manager
+- Node.js 16.x or later and npm/yarn package manager
+  OR
+- Docker and Docker Compose
 
-### Installation
+### Standard Installation
 
 1. Clone the repository:
    ```bash
@@ -60,9 +61,10 @@ A modern, responsive news and content management system built with Next.js, feat
 
 2. Install dependencies:
    ```bash
-   npm install
+   # Use legacy-peer-deps to handle React version conflicts
+   npm install --legacy-peer-deps
    # or
-   yarn install
+   yarn install --legacy-peer-deps
    ```
 
 3. Run the development server:
@@ -73,6 +75,59 @@ A modern, responsive news and content management system built with Next.js, feat
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Docker Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sd2411-news-cms.git
+   cd sd2411-news-cms
+   ```
+
+2. Build the Docker image:
+   ```bash
+   # Using the npm script
+   npm run docker:build
+   
+   # Or directly with Docker
+   docker build -t news-cms .
+   ```
+
+3. Run the container:
+   ```bash
+   # Using the npm script
+   npm run docker:run
+   
+   # Or directly with Docker
+   docker run -p 3000:3000 news-cms
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Docker Compose (Development)
+
+For a more convenient development experience with Docker, you can use Docker Compose:
+
+1. The project already includes a `docker-compose.yml` file for development.
+
+2. Run with Docker Compose:
+   ```bash
+   # Using the npm script
+   npm run docker:dev
+   
+   # Or directly with Docker Compose
+   docker compose up --build
+   ```
+
+3. For detached mode (running in background):
+   ```bash
+   docker compose up --build -d
+   ```
+
+4. To stop containers:
+   ```bash
+   docker compose down
+   ```
 
 ## Project Structure
 
@@ -103,10 +158,37 @@ The application uses JSON files in the `/data` directory to store:
 
 ## Available Scripts
 
+### NPM Scripts
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm start` - Start production server
 - `npm run lint` - Run linting
+
+### Docker Commands
+- `docker build -t news-cms .` - Build production Docker image
+- `docker run -p 3000:3000 news-cms` - Run production Docker container
+- `docker-compose up` - Start development Docker environment
+- `docker-compose down` - Stop and remove development Docker containers
+- `docker-compose up --build` - Rebuild and start development Docker environment
+
+## Dependency Considerations
+
+This project contains some dependency version conflicts, particularly:
+
+- **React Version Mismatch**: The `react-modal-video@2.0.2` package requires React 17/18, while the project uses React 19.x.
+
+### How We Resolved It
+
+- For development and production builds in Docker, we use the `--legacy-peer-deps` flag to handle these mismatches.
+- This is automatically configured in the Dockerfile and Dockerfile.dev files.
+
+### Alternative Solutions
+
+If you encounter issues with the current approach, consider:
+
+1. **Downgrading React**: Revert to React 18.x (requires updating Next.js as well)
+2. **Finding an Alternative Package**: Replace `react-modal-video` with a more updated alternative
+3. **Forking and Updating**: Create a fork of `react-modal-video` with updated React peer dependencies
 
 ## TODO / Future Enhancements
 
