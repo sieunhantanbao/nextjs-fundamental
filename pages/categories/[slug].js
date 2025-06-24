@@ -2,9 +2,9 @@ import Layout from '../../components/Layout';
 import React, { useEffect, useState } from 'react';
 import renderPostByType from '../../components/commons/renderPostType';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import useMasonryInit from '../../hooks/useMasonryInit';
 import { API_URL } from '../../config';
+import Pagination from '../../components/commons/Pagination';
 
 export async function getServerSideProps(context) {
     const { slug } = context.params;
@@ -30,26 +30,7 @@ export default function Category({ category, posts, pagination, currentPage }) {
     const router = useRouter();
     
     // Initialize masonry layout when posts change
-    useMasonryInit(posts && posts.length > 0, [posts, currentPage]);
-
-    // Function to generate page numbers
-    const getPageNumbers = () => {
-        const pageNumbers = [];
-        const maxPagesToShow = 5;
-        
-        let startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
-        let endPage = Math.min(pagination.pageCount, startPage + maxPagesToShow - 1);
-        
-        if (endPage - startPage + 1 < maxPagesToShow) {
-            startPage = Math.max(1, endPage - maxPagesToShow + 1);
-        }
-        
-        for (let i = startPage; i <= endPage; i++) {
-            pageNumbers.push(i);
-        }
-        
-        return pageNumbers;
-    };
+    useMasonryInit(posts && posts.length > 0, [posts, currentPage]);    // The getPageNumbers function has been moved to the Pagination component
 
     if (!posts || posts.length === 0) {
         return (
@@ -93,39 +74,12 @@ export default function Category({ category, posts, pagination, currentPage }) {
                         ))}
                     </div>
                 </div>
-                
-                {pagination && pagination.pageCount > 1 && (
-                    <div className="row">
-                        <nav className="pagination">
-                            {currentPage > 1 ? (
-                                <Link href={`/categories/${category.slug}?page=${currentPage - 1}`} legacyBehavior>
-                                    <a className="page-numbers prev">Prev</a>
-                                </Link>
-                            ) : (
-                                <span className="page-numbers prev inactive">Prev</span>
-                            )}
-                            
-                            {getPageNumbers().map(num => 
-                                num === currentPage ? (
-                                    <span key={num} className="page-numbers current" aria-current="page">
-                                        {num}
-                                    </span>
-                                ) : (
-                                    <Link key={num} href={`/categories/${category.slug}?page=${num}`} legacyBehavior>
-                                        <a className="page-numbers">{num}</a>
-                                    </Link>
-                                )
-                            )}
-                            
-                            {currentPage < pagination.pageCount ? (
-                                <Link href={`/categories/${category.slug}?page=${currentPage + 1}`} legacyBehavior>
-                                    <a className="page-numbers next">Next</a>
-                                </Link>
-                            ) : (
-                                <span className="page-numbers next inactive">Next</span>
-                            )}
-                        </nav>
-                    </div>
+                  {pagination && (
+                    <Pagination 
+                        currentPage={currentPage}
+                        pageCount={pagination.pageCount}
+                        baseUrl={`/categories/${category.slug}`}
+                    />
                 )}
             </section>
         </Layout>

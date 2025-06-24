@@ -2,9 +2,9 @@ import Layout from '../components/Layout';
 import React, { useEffect, useState } from 'react';
 import renderPostByType from '../components/commons/renderPostType';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 import useMasonryInit from '../hooks/useMasonryInit';
 import { API_URL } from '../config';
+import Pagination from '../components/commons/Pagination';
 
 export default function Home() {
   const router = useRouter();
@@ -21,8 +21,8 @@ export default function Home() {
   // Get current page from query parameters or default to 1
   const page = parseInt(router.query.page) || 1;
   // Fetch posts when page changes
-  useEffect(() => {
-    const fetchPosts = async () => {      try {
+  useEffect(() => {    const fetchPosts = async () => {
+      try {
         setLoading(true);
         const res = await fetch(`${API_URL}/api/posts/list?page=${page}&pageSize=${pagination.pageSize}`);
         if (!res.ok) throw new Error('Failed to load Posts');
@@ -39,28 +39,8 @@ export default function Home() {
 
     fetchPosts();
   }, [page]); // Re-run when page changes
-  
-  // Initialize masonry layout when posts change
+    // Initialize masonry layout when posts change
   useMasonryInit(!loading && posts.length > 0, [posts, page]);
-
-  // Function to generate page numbers
-  const getPageNumbers = () => {
-    const pageNumbers = [];
-    const maxPagesToShow = 5;
-    
-    let startPage = Math.max(1, page - Math.floor(maxPagesToShow / 2));
-    let endPage = Math.min(pagination.pageCount, startPage + maxPagesToShow - 1);
-    
-    if (endPage - startPage + 1 < maxPagesToShow) {
-      startPage = Math.max(1, endPage - maxPagesToShow + 1);
-    }
-    
-    for (let i = startPage; i <= endPage; i++) {
-      pageNumbers.push(i);
-    }
-    
-    return pageNumbers;
-  };
 
   if (loading) return <p>Loading Posts...</p>;
   if (error) return <p>Error: {error}</p>;
@@ -80,38 +60,12 @@ export default function Home() {
             ))}
           </div>
         </div>
-        
-        {pagination.pageCount > 1 && (
-          <div className="row">
-            <nav className="pagination">              {page > 1 ? (
-                <Link href={`/?page=${page - 1}`} legacyBehavior>
-                  <a className="page-numbers prev">Prev</a>
-                </Link>
-              ) : (
-                <span className="page-numbers prev inactive">Prev</span>
-              )}
-              
-              {getPageNumbers().map(num => 
-                num === page ? (
-                  <span key={num} className="page-numbers current" aria-current="page">
-                    {num}
-                  </span>
-                ) : (
-                  <Link key={num} href={`/?page=${num}`} legacyBehavior>
-                    <a className="page-numbers">{num}</a>
-                  </Link>
-                )
-              )}
-              
-              {page < pagination.pageCount ? (
-                <Link href={`/?page=${page + 1}`} legacyBehavior>
-                  <a className="page-numbers next">Next</a>
-                </Link>
-              ) : (
-                <span className="page-numbers next inactive">Next</span>
-              )}
-            </nav>
-          </div>
+          {pagination.pageCount > 1 && (
+          <Pagination 
+            currentPage={page}
+            pageCount={pagination.pageCount}
+            baseUrl="/"
+          />
         )}
       </section>
     </Layout>
