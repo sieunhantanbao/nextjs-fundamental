@@ -3049,7 +3049,7 @@ footer ul li {
 .format-audio .mejs-controls,
 .format-audio .mejs-mediaelement,
 .format-audio .mejs-container {
-	background: url("") !important;
+	background: none !important;
 	background-color: rgba(17, 17, 17, 0.5) !important;
 	height: 42px;
 }
