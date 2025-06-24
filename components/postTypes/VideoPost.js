@@ -3,33 +3,15 @@ import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.css';
 
 export default function VideoPost({ post }) {
-    const [isOpen, setOpen] = useState(false);
-
-    useEffect(() => {
-        // Dynamically load jQuery, MediaElementPlayer only on the client
-        const loadPlugins = async () => {
-            if (typeof window !== 'undefined') {
-                // Dynamically import jQuery and assign to window if not present
-                if (!window.jQuery) {
-                    const jq = (await import('jquery')).default;
-                    window.$ = window.jQuery = jq;
-                }
-                // MediaElementPlayer
-                if (window.jQuery && (!window.jQuery.fn || !window.jQuery.fn.mediaelementplayer)) {
-                    await import('mediaelement');
-                }
-                // Now initialize the plugins
-                if (window.jQuery && typeof window.jQuery === 'function') {
-                    window.jQuery(function ($) {
-                        // MediaElementPlayer
-                        $('audio').mediaelementplayer({
-                            features: ['playpause', 'progress', 'tracks', 'volume']
-                        });
-                    });
-                }
+    const [isOpen, setOpen] = useState(false);    useEffect(() => {
+        // Dynamically load jQuery only on the client if needed for other functionality
+        const loadJQuery = async () => {
+            if (typeof window !== 'undefined' && !window.jQuery) {
+                const jq = (await import('jquery')).default;
+                window.$ = window.jQuery = jq;
             }
         };
-        loadPlugins();
+        loadJQuery();
     }, []);
 
     // Extract YouTube video ID from post.video (supports both embed and watch URLs)

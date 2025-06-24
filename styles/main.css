@@ -1523,7 +1523,7 @@ input::-moz-focus-inner {
 /* format video
  * --------------------------------------- */
 .format-video .entry-thumb a {
-	cursor: zoom-in;
+	cursor: pointer;
 	display: block;
 	position: relative;
 }
@@ -1541,11 +1541,11 @@ input::-moz-focus-inner {
 	font-family: "icomoon";
 	font-size: 8rem;
 	border-radius: 50%;
-	color: white;
+	color: rgb(235, 229, 229);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	cursor: zoom-in;
+	cursor: pointer;
 }
 
 

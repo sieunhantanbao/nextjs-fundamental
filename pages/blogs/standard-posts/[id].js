@@ -1,5 +1,4 @@
 import Layout from '../../../components/Layout';
-import { useEffect } from 'react';
 import Comments from '../../../components/commons/Comment';
 import { API_URL } from '../../../config';
 
@@ -13,9 +12,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function SingleStandardPost({ post }) {
-    useEffect(() => {
-
-    }, []);
 
     return (
         <Layout>
