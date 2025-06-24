@@ -4,17 +4,17 @@ import renderPostByType from '../../components/commons/renderPostType';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import useMasonryInit from '../../hooks/useMasonryInit';
+import { API_URL } from '../../config';
 
 export async function getServerSideProps(context) {
     const { slug } = context.params;
     const { page = 1 } = context.query;
     const pageSize = 8;
-    
-    // Fetch category data from API
-    const category = await fetch(`http://localhost:3000/api/categories/${slug}`).then(res => res.json());
+      // Fetch category data from API
+    const category = await fetch(`${API_URL}/api/categories/${slug}`).then(res => res.json());
 
     // Fetch posts for the category with pagination
-    const response = await fetch(`http://localhost:3000/api/posts/by-category/${category.id}?page=${page}&pageSize=${pageSize}`).then(res => res.json());
+    const response = await fetch(`${API_URL}/api/posts/by-category/${category.id}?page=${page}&pageSize=${pageSize}`).then(res => res.json());
 
     return {
         props: { 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { API_URL } from '../../config';
 
 export default function Comment({ postId }) {
     const [comments, setComments] = useState([]);
@@ -9,9 +10,8 @@ export default function Comment({ postId }) {
         if (!postId) return;
 
         const fetchComments = async () => {
-            try {
-                setLoading(true);
-                const res = await fetch(`http://localhost:3000/api/posts/comments/${postId}`);
+            try {                setLoading(true);
+                const res = await fetch(`${API_URL}/api/posts/comments/${postId}`);
                 if (!res.ok) throw new Error('Failed to load comments');
 
                 const data = await res.json();

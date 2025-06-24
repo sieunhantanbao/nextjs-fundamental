@@ -4,6 +4,7 @@ import renderPostByType from '../components/commons/renderPostType';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import useMasonryInit from '../hooks/useMasonryInit';
+import { API_URL } from '../config';
 
 export default function Home() {
   const router = useRouter();
@@ -21,10 +22,9 @@ export default function Home() {
   const page = parseInt(router.query.page) || 1;
   // Fetch posts when page changes
   useEffect(() => {
-    const fetchPosts = async () => {
-      try {
+    const fetchPosts = async () => {      try {
         setLoading(true);
-        const res = await fetch(`http://localhost:3000/api/posts/list?page=${page}&pageSize=${pagination.pageSize}`);
+        const res = await fetch(`${API_URL}/api/posts/list?page=${page}&pageSize=${pagination.pageSize}`);
         if (!res.ok) throw new Error('Failed to load Posts');
 
         const data = await res.json();

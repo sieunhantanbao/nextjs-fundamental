@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Script from 'next/script';
+import { API_URL } from '../config';
 
 export default function Header() {
 	const router = useRouter();
@@ -11,9 +12,8 @@ export default function Header() {
 
 	useEffect(() => {
 		const fetchCategories = async () => {
-			try {
-				setLoading(true);
-				const res = await fetch(`http://localhost:3000/api/categories/list`);
+			try {				setLoading(true);
+				const res = await fetch(`${API_URL}/api/categories/list`);
 				if (!res.ok) throw new Error('Failed to load Categories');
 
 				const data = await res.json();

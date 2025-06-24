@@ -1,7 +1,9 @@
+import { API_URL } from '../../config';
+
 export async function getServerSideProps(context) {
   const { type } = context.query;
 
-  const res = await fetch(`http://localhost:3000/api/posts/single-by-type?type=${type}`);
+  const res = await fetch(`${API_URL}/api/posts/single-by-type?type=${type}`);
   const post = await res.json();
 
   if (res.ok && post?.id) {

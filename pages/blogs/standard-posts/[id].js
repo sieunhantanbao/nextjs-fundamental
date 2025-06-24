@@ -1,12 +1,11 @@
 import Layout from '../../../components/Layout';
 import { useEffect } from 'react';
 import Comments from '../../../components/commons/Comment';
+import { API_URL } from '../../../config';
 
 export async function getServerSideProps(context) {
-    const { id } = context.params;
-
-    // Fetch posts data from API or DB
-    const data = await fetch(`http://localhost:3000/api/posts/${id}`).then(res => res.json());
+    const { id } = context.params;    // Fetch posts data from API or DB
+    const data = await fetch(`${API_URL}/api/posts/${id}`).then(res => res.json());
 
     return {
         props: { post: data },
