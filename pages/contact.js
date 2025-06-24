@@ -3,15 +3,12 @@ import { useEffect } from 'react';
 import Map from '../components/commons/Map';
 
 export default function Contact() {
-	// We'll use Leaflet instead of Google Maps, which doesn't require API key
-	
-	// Custom behaviors for map zoom controls (actual functionality in Map component)
 	useEffect(() => {
 		if (typeof window !== 'undefined') {
 			// Show map controls
 			const mapZoomIn = document.getElementById('map-zoom-in');
 			const mapZoomOut = document.getElementById('map-zoom-out');
-			
+
 			if (mapZoomIn) mapZoomIn.style.display = 'block';
 			if (mapZoomOut) mapZoomOut.style.display = 'block';
 		}
@@ -25,11 +22,11 @@ export default function Contact() {
 						<section>
 							<div className="content-media">
 								<div id="map-wrap">
-									<div id="map-container">
-										<Map center={[37.422, -122.084]} zoom={15} />
+									<div id="map-container" style={{ height: '400px', width: '100%', position: 'relative' }}>
+										<Map center={[10.8022418, 106.6397282]} zoom={15} />
 									</div>
-									<div id="map-zoom-in"></div>
-									<div id="map-zoom-out"></div>
+									<div id="map-zoom-in" style={{ position: 'absolute', top: '10px', right: '10px', zIndex: 1000, backgroundColor: 'white', width: '30px', height: '30px', textAlign: 'center', lineHeight: '30px', cursor: 'pointer', borderRadius: '2px', boxShadow: '0 1px 5px rgba(0,0,0,0.4)' }}>+</div>
+									<div id="map-zoom-out" style={{ position: 'absolute', top: '50px', right: '10px', zIndex: 1000, backgroundColor: 'white', width: '30px', height: '30px', textAlign: 'center', lineHeight: '30px', cursor: 'pointer', borderRadius: '2px', boxShadow: '0 1px 5px rgba(0,0,0,0.4)' }}>-</div>
 								</div>
 							</div>
 
@@ -43,11 +40,11 @@ export default function Contact() {
 								<div className="row">
 									<div className="col-six tab-full">
 										<h4>Where to Find Us</h4>
-
 										<p>
-											1600 Amphitheatre Parkway<br />
-											Mountain View, CA<br />
-											94043 US
+											364 Etown Cong Hoa<br />
+											Tan Binh District<br />
+											70000 Ho Chi Minh City<br />
+											Vietnam
 										</p>
 									</div>
 

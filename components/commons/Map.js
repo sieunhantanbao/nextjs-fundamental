@@ -13,11 +13,20 @@ const MapComponent = ({ center = [14.549072, 121.046958], zoom = 15 }) => {
     // Import Leaflet dynamically on client side
     const loadMap = async () => {
       try {
+        // Import Leaflet CSS
+        await import('leaflet/dist/leaflet.css');
+        
         // Dynamically import Leaflet
         const L = await import('leaflet').then(module => module.default || module);
 
         // Make sure we only initialize once
-        if (mapInstanceRef.current) return;
+        if (mapInstanceRef.current) return;        // Fix Leaflet's icon paths which are known to cause issues with webpack
+        delete L.Icon.Default.prototype._getIconUrl;
+        L.Icon.Default.mergeOptions({
+          iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
+          iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+          shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+        });
 
         // Create the map instance
         mapInstanceRef.current = L.map(mapRef.current).setView(center, zoom);
@@ -46,9 +55,18 @@ const MapComponent = ({ center = [14.549072, 121.046958], zoom = 15 }) => {
           zoomOutButton.onclick = () => {
             mapInstanceRef.current.setZoom(mapInstanceRef.current.getZoom() - 1);
           };
-        }
-      } catch (error) {
+        }      } catch (error) {
         console.error("Error loading map:", error);
+        
+        // Display error message in the map container
+        if (mapRef.current) {
+          mapRef.current.innerHTML = `
+            <div style="height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; padding: 20px;">
+              <p>We're having trouble loading the map right now.</p>
+              <p>Please try again later or contact us directly.</p>
+            </div>
+          `;
+        }
       }
     };
 
@@ -62,11 +80,11 @@ const MapComponent = ({ center = [14.549072, 121.046958], zoom = 15 }) => {
       }
     };
   }, [center, zoom]);
-
-  return <div ref={mapRef} style={{ height: '400px', width: '100%' }} />;
+  return <div ref={mapRef} style={{ height: '400px', width: '100%', background: '#f0f0f0' }} />;
 };
 
 // Export with no SSR
 export default dynamic(() => Promise.resolve(MapComponent), {
-  ssr: false
+  ssr: false,
+  loading: () => <div style={{ height: '400px', width: '100%', background: '#f0f0f0', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Loading map...</div>
 });
