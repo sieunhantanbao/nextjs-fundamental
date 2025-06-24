@@ -1087,18 +1087,17 @@
     "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3"
   },
   {
-    "id": "88",
-    "type": "gallery",
+    "id": "88",    "type": "gallery",
     "categoryId": "5",
     "categoryName": "Mockup",
     "categorySlug": "mockup",
     "publishedDate": "October 19, 2024",
-    "name": "Free Mockup Resources for Designers",
-    "description": "Explore best practices in showcasing your work with realistic design mockups.",
+    "name": "Premium Mockup Templates Collection",
+    "description": "A curated gallery of high-quality mockup templates to showcase your designs professionally.",
     "gallery": [
-      "https://picsum.photos/id/967/800/600",
-      "https://picsum.photos/id/968/800/600",
-      "https://picsum.photos/id/969/800/600"
+      "https://picsum.photos/seed/mockup88a/800/600",
+      "https://picsum.photos/seed/mockup88b/800/600",
+      "https://picsum.photos/seed/mockup88c/800/600"
     ]
   },
   {    "id": "89",
